@@ -1,0 +1,750 @@
+/* Main Periodic table heading Styles */
+
+#main_heading {
+    text-align: center;
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#main_heading:hover {
+    text-shadow: 2px 2px 5px red;
+}
+
+
+/* Group Nature Names styling  */
+
+.group_counting,.roll{
+ font-size: 20px;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bold;
+}
+.group_roman{
+    
+ font-size: 25px;
+ text-align: center;
+ font-family: Arial, Helvetica, sans-serif;
+ font-weight: bolder;
+}
+
+
+
+/* For All Elements Box Styling Code */
+
+.hydrogen {
+    font-size: 10px;
+    font-family: sans-serif;
+    font-weight: bold;
+
+}
+
+.atomic_number {
+
+    font-size: 14px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+.H {
+
+    font-size: 30px;
+    font-family: monospace;
+    font-weight: bold;
+}
+
+
+/* Hydrogen,Carbon,Nitrogen,Oxygen,Phosphorus,Sulphur,Selenium Box Styles */
+
+
+#h,
+#c,
+#n,
+#o,
+#p,
+#s,
+#se {
+
+
+    text-align: center;
+    border: 4px solid #7050f2;
+    width: 20px;
+    border-radius: 10px;
+    background-color: #b5bdf5;
+
+}
+
+
+
+#h:hover,
+#c:hover,
+#n:hover,
+#o:hover,
+#p:hover,
+#s:hover,
+#se:hover {
+    box-shadow: 4px 4px 10px #7050f2;
+    width: 72px;
+    height: 85px;
+}
+
+
+
+
+/* Helium,Neon,Argon,Krypton,Xenon,Radon,Oganesson Box Styles */
+
+
+
+
+#he,
+#ne,
+#ar,
+#kr,
+#xe,
+#rn,
+#og {
+
+
+    text-align: center;
+    border: 4px solid #bf50f2;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(231, 185, 231);
+}
+
+#he:hover,
+#ne:hover,
+#ar:hover,
+#kr:hover,
+#xe:hover,
+#rn:hover,
+#og:hover {
+    box-shadow: 4px 4px 10px purple;
+    width: 72px;
+    height: 85px;
+}
+
+/* Lithium,Sodium,Pottassium,Rubidium,Cesium,Francium Box Styles */
+
+#li,
+#na,
+#k,
+#rb,
+#cs,
+#fr {
+
+
+    text-align: center;
+    border: 4px solid #f25050;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(240, 191, 191);
+}
+
+#li:hover,
+#na:hover,
+#k:hover,
+#rb:hover,
+#cs:hover,
+#fr:hover {
+    box-shadow: 4px 4px 10px red;
+    width: 72px;
+    height: 85px;
+}
+
+/* Beryllium,Magnesium,Calcium,Strontium,Barium,Radium Box Styles */
+
+#be,
+#mg,
+#ca,
+#sr,
+#ba,
+#ra {
+
+
+    text-align: center;
+    border: 4px solid #f79d36;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(243, 223, 186);
+}
+
+#be:hover,
+#mg:hover,
+#ca:hover,
+#sr:hover,
+#ba:hover,
+#ra:hover {
+    box-shadow: 4px 4px 10px orange;
+    width: 72px;
+    height: 85px;
+}
+
+/* Boron,Silicon,Germanium,Arsenic,Antimony,Tellurium,Polonium Box Styles */
+
+
+#b,
+#si,
+#ge,
+#as,
+#sb,
+#te,
+#po {
+
+
+    text-align: center;
+    border: 4px solid #1ecceb;
+    width: 70px;
+    border-radius: 10px;
+    background-color: rgb(201, 230, 248);
+}
+
+#b:hover,
+#si:hover,
+#ge:hover,
+#as:hover,
+#sb:hover,
+#te:hover,
+#po:hover {
+    box-shadow: 4px 4px 10px skyblue;
+    width: 72px;
+    height: 85px;
+}
+
+
+/* Flourine,Chlorine,Bromine,Iodine,Astatine,Tennessine Box Styles */
+
+
+
+#f,
+#cl,
+#br,
+#i,
+#at,
+#ts {
+
+
+    text-align: center;
+    border: 4px solid #4f3673;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #c7b7dd;
+}
+
+#f:hover,
+#cl:hover,
+#br:hover,
+#i:hover,
+#at:hover,
+#ts:hover {
+    box-shadow: 4px 4px 10px #4f3673;
+    width: 72px;
+    height: 85px;
+}
+
+
+/* Aluminium,Gallium,Indium,Tin,Thallium,Lead,Bismuth,Nithonium,Flerovium,Moscovium,Livermorium Box Styles */
+
+
+
+#al,
+#ga,
+#in,
+#sn,
+#TI,
+#pb,
+#bi,
+#nh,
+#FI,
+#mc,
+#lv {
+
+
+    text-align: center;
+    border: 4px solid #50803d;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #c8e9bb;
+}
+
+#al:hover,
+#ga:hover,
+#in:hover,
+#sn:hover,
+#TI:hover,
+#pb:hover,
+#bi:hover,
+#nh:hover,
+#FI:hover,
+#mc:hover,
+#lv:hover {
+    box-shadow: 4px 4px 10px #50803d;
+    width: 72px;
+    height: 85px;
+}
+
+
+
+
+/* Scandium,Tianium,Vanadium,Chromium,Manganese,Iron,Cobalt,Nickel,Copper,
+Zinc Box Styles */
+
+
+#sc,
+#ti,
+#v,
+#cr,
+#mn,
+#fe,
+#co,
+#ni,
+#cu,
+#zn,
+#y,
+#zr,
+#nb,
+#mo,
+#tc,
+#ru,
+#rh,
+#pd,
+#ag,
+#cd,
+#hf,
+#ta,
+#w,
+#re,
+#os,
+#ir,
+#pt,
+#au,
+#hg,
+#rf,
+#db,
+#sg,
+#bh,
+#hs,
+#mt,
+#ds,
+#rg,
+#cn {
+
+
+    text-align: center;
+    border: 4px solid #f0ea37;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #faf8c8;
+}
+
+
+
+
+
+#sc:hover,
+#ti:hover,
+#v:hover,
+#cr:hover,
+#mn:hover,
+#fe:hover,
+#co:hover,
+#ni:hover,
+#cu:hover,
+#zn:hover,
+#y:hover,
+#zr:hover,
+#nb:hover,
+#mo:hover,
+#tc:hover,
+#ru:hover,
+#rh:hover,
+#pd:hover,
+#ag:hover,
+#cd:hover,
+#hf:hover,
+#ta:hover,
+#w:hover,
+#re:hover,
+#os:hover,
+#ir:hover,
+#pt:hover,
+#au:hover,
+#hg:hover,
+#rf:hover,
+#db:hover,
+#sg:hover,
+#bh:hover,
+#hs:hover,
+#mt:hover,
+#ds:hover,
+#rg:hover,
+#cn:hover {
+
+    box-shadow: 4px 4px 10px #f0ea37;
+    width: 72px;
+    height: 85px;
+}
+
+
+
+/* Lanthanides Series */
+
+
+
+#lanth,
+#la,
+#ce,
+#pr,
+#nd,
+#pm,
+#sm,
+#eu,
+#gd,
+#tb,
+#dy,
+#ho,
+#er,
+#tm,
+#yb,
+#lu {
+    text-align: center;
+    border: 4px solid #a2eb94;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #c8e0c3;
+}
+
+
+
+
+
+#lanth:hover,
+#la:hover,
+#ce:hover,
+#pr:hover,
+#nd:hover,
+#pm:hover,
+#sm:hover,
+#eu:hover,
+#gd:hover,
+#tb:hover,
+#dy:hover,
+#ho:hover,
+#er:hover,
+#tm:hover,
+#yb:hover,
+#lu:hover {
+
+    box-shadow: 4px 4px 10px #a2eb94;
+    width: 72px;
+    height: 85px;
+}
+
+
+
+
+/* Actinides Series */
+
+
+
+#actinides,
+#ac,
+#th,
+#pa,
+#u,
+#np,
+#pu,
+#am,
+#cm,
+#bk,
+#cf,
+#es,
+#fm,
+#md,
+#no,
+#lr {
+
+
+    text-align: center;
+    border: 4px solid #f2e88d;
+    width: 70px;
+    border-radius: 10px;
+    background-color: #f5efbc;
+}
+
+
+
+
+
+#actinides:hover,
+#ac:hover,
+#th:hover,
+#pa:hover,
+#u:hover,
+#np:hover,
+#pu:hover,
+#am:hover,
+#cm:hover,
+#bk:hover,
+#cf:hover,
+#es:hover,
+#fm:hover,
+#md:hover,
+#no:hover,
+#lr:hover {
+
+    box-shadow: 4px 4px 10px #f2e88d;
+    width: 72px;
+    height: 85px;
+}
+
+/* Alkali Metal Box  */
+#alkali_metal {
+
+
+    text-align: center;
+    border: 4px solid #f25050;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(240, 191, 191);
+}
+
+
+#alkali_metal:hover {
+    box-shadow: 4px 4px 10px red;
+    width: 102px;
+    height: 12px;
+}
+
+/* Alkaline Earth Metal Bx */
+
+
+
+#alkalin_earth_metal {
+
+
+    text-align: center;
+    border: 4px solid #f79d36;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(243, 223, 186);
+}
+
+
+#alkalin_earth_metal:hover {
+    box-shadow: 4px 4px 10px orange;
+
+    width: 102px;
+    height: 12px;
+}
+
+/* Transition Metal Box */
+
+
+#transition_metal {
+
+
+    text-align: center;
+    border: 4px solid #f0ea37;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #faf8c8;
+}
+
+
+#transition_metal:hover {
+    box-shadow: 4px 4px 10px #f0ea37;
+
+    width: 102px;
+    height: 12px;
+}
+
+/* Basic Metal Box  */
+
+
+#basic_metal {
+
+
+    text-align: center;
+    border: 4px solid #50803d;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color:#c8e9bb;
+}
+
+
+#basic_metal:hover {
+    box-shadow: 4px 4px 10px #50803d;
+
+    width: 102px;
+    height: 12px;
+}
+
+/* Metalloid Box */
+
+
+#metalloid {
+
+
+    text-align: center;
+    border: 4px solid #1ecceb;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: rgb(201, 230, 248);
+}
+
+
+#metalloid:hover {
+    box-shadow: 4px 4px 10px skyblue;
+
+    width: 102px;
+    height: 12px;
+}
+
+/* Non Metal  Box*/
+
+
+#non_metal {
+
+
+    text-align: center;
+    border: 4px solid #7050f2;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #b5bdf5;
+}
+
+
+#non_metal:hover {
+    box-shadow: 4px 4px 10px #7050f2;
+
+    width: 102px;
+    height: 12px;
+}
+
+
+/* Halogen Box */
+
+
+#halogen {
+
+
+    text-align: center;
+    border: 4px solid #4f3673;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #c7b7dd;
+}
+
+
+#halogen:hover {
+    box-shadow: 4px 4px 10px #4f3673;
+
+    width: 102px;
+    height: 12px;
+}
+
+/* Noble gas  Box */
+
+
+#noble_gas {
+
+
+    text-align: center;
+    border: 4px solid #bf50f2;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color:  rgb(231, 185, 231);
+}
+
+
+#noble_gas:hover {
+    box-shadow: 4px 4px 10px purple;
+
+    width: 102px;
+    height: 12px;
+}
+
+
+/* Lanthanide Box */
+
+
+
+#lanthanides {
+
+
+    text-align: center;
+    border: 4px solid #a2eb94;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #c8e0c3;
+}
+
+
+#lanthanides:hover {
+    box-shadow: 4px 4px 10px #a2eb94;
+
+    width: 102px;
+    height: 12px;
+}
+
+
+/* Actinides Box  */
+
+
+
+#actinides_nature {
+
+
+    text-align: center;
+    border: 4px solid #f2e88d;
+    border-radius: 10px;
+    width: 100px;
+    height: 10px;
+    border-radius: 10px;
+    background-color: #f5efbc;
+}
+
+
+#actinides_nature:hover {
+    box-shadow: 4px 4px 10px #f2e88d;
+
+    width: 102px;
+    height: 12px;
+}
+
+
+
+.elements_style {
+
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bold;
+}
+
+#second_table{
+    margin-top: 30px;
+}
+
+
+#lanth_actin_table{
+    margin-top: 30px;
+    margin-left: 200px;
+}
