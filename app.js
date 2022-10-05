@@ -227,7 +227,7 @@ document.write("<br>");
 
 
 
-// Q # 12 
+// Q # 12 This Question is Incomplete
 
 var dolllars = 10 * 155;
 var saudi_riyals = 25 * 41;
