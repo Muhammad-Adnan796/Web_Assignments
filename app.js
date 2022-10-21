@@ -284,36 +284,10 @@ document.write("<br>");
 
 var secretNumber = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 
-var userNumber = prompt("Guess the number ");
+var userNumber = parseInt(prompt("Guess the number "));
+var userindexnum = secretNumber.indexOf(userNumber);
 
-if (secretNumber[0] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[1] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[2] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[3] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[4] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[5] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[6] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[7] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[8] == parseInt(userNumber)) {
-    alert("Bingo! Correct Answer");
-    document.write("Bingo! Correct Answer");
-} else if (secretNumber[9] == parseInt(userNumber)) {
+if (secretNumber.length !== userindexnum && userindexnum !== -1) {
     alert("Bingo! Correct Answer");
     document.write("Bingo! Correct Answer");
 } else {
