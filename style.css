@@ -1,0 +1,445 @@
+    /* Property # 1 "Outline" */
+
+    #outline {
+        border: 3px solid red;
+
+        /* outline-width: 3px;
+    outline-color: green;
+    outline-style: solid; */
+
+        /* Outline Shorthand Method */
+        /*      outline-width, outline-style,outline-color */
+        outline: 3px solid green;
+
+        outline-offset: 4px;
+
+    }
+
+    /* Property # 2 "Padding"  */
+    /*   Property # 3 "margin"   */
+
+    #padding,
+    #margin,
+    #min-height-max-height {
+
+        border: 3px solid green;
+
+        /* same padding from all sides */
+        padding: 5px;
+
+
+        /* diffrenet padding from all sides */
+        /*       top right bottom left  */
+        padding: 10px 20px 30px 40px;
+
+        /* same margin from all sides */
+        /* margin: 20px; */
+
+        /* diffrenet margin from all sides */
+        /*       top right bottom left  */
+        margin: 10px 20px 30px 40px;
+        width: 600px;
+        min-height: 100px;
+        max-height: 900px;
+
+
+
+
+    }
+
+    /*  Property # 4 "Overflow"   */
+    /*  Property # 5 "Box-shadow"   */
+
+    #overflow-box-shadow {
+        width: 200px;
+        border: 3px solid blue;
+        /* OverFlow Pro */
+        overflow: auto;
+        max-height: 500px;
+        /* h-offset, v-offset, blur,spread,color */
+        /* or */
+        /* h=horizontal and v=vertical */
+        /* or */
+        /* h and v can be positive or a negative  */
+        box-shadow: 2px 2px 5px 10px orange;
+    }
+
+
+    /*  Property # 6 "Float"   */
+
+
+    #float-box-1 {
+        width: 600px;
+        border: 3px solid magenta;
+        float: left;
+        font-size: 50%;
+    }
+
+    #float-box-2 {
+        width: 600px;
+        border: 3px solid magenta;
+        float: right;
+        font-size: 50%;
+
+    }
+
+    /*  Property # 7 "Text-Decoration"   */
+
+    #text-decoration {
+        text-decoration-line: underline;
+        text-decoration-color: yellow;
+        text-decoration-style: wavy;
+
+        /* Short Method of Text-Decoration  */
+        /*=> text-decoration: underline yellow wavy;  <=*/
+
+    }
+
+    /*  Property # 8 "column-Count"   */
+
+    #column-count {
+        border: 2px solid orange;
+        width: 1000px;
+        column-count: 4;
+        column-gap: 50px;
+        /* column-rule-width: 5px;
+    column-rule-style: solid;
+    column-rule-color: orange; */
+        /* Shorthand Methode */
+        column-rule: 5px solid orange;
+    }
+
+
+    #column-span {
+        column-span: all;
+    }
+
+    /*  Property # 9 "External-Font-Family"   */
+
+    /* @font-face {
+    font-family: openSanse;
+    src: url(fonts/urloffons);
+}
+h1{
+    font-family: openSanse;
+} */
+
+
+    /*  Property # 10 "list-style"   */
+
+
+
+    #ul-list-style {
+        /* 
+    list-style-type: disc;
+    list-style-position: inside;
+    list-style-image: url(images/bullits.png); */
+        border: 2px solid yellowgreen;
+        /* Shorthand Method */
+        list-style: circle inside url(images/bullits.png);
+    }
+
+
+    #ol-list-style {
+
+        list-style-type: lower-roman;
+        list-style-position: inside;
+        border: 2px solid yellowgreen;
+    }
+
+    /*  Property # 11 "backGround-image"   */
+
+    body {
+        /* background-image: url(images/scenary.jpg);
+    background-repeat: no-repeat;
+    background-position: left center; */
+        /* Shorthand Method */
+        /* background: greenyellow url(images/scenary.jpg) no-repeat left center; */
+        /* this property is for fixed the image  at background. */
+        background-attachment: fixed;
+    }
+
+    /*  Property # 12 "backGround-size"   */
+    /*  Property # 13 "backGround-origin"   */
+    /*  Property # 14 "backGround-clip"   */
+
+
+
+
+    #background-size {
+        background-color: aliceblue;
+        width: 500px;
+        height: 500px;
+        padding: 30px;
+        border: 20px solid brown;
+        background-image: url(images/scenary.jpg);
+        /* background-size: cover; */
+        background-repeat: no-repeat;
+        /* backGround-origin */
+        background-origin: content-box;
+        /* background-clip change the position of background color */
+        /* background-clip */
+        background-clip: border-box;
+    }
+
+    /*  Property # 15 "backGround-clip"   */
+
+    #background-clip {
+
+        color: transparent;
+        background-image: url(images/scenary.jpg);
+        font-size: 150px;
+        font-family: Impact;
+        /* backGround-clip */
+        background-clip: text;
+    }
+
+
+    /*  Property # 16 "backGround-clip"   */
+
+
+    #linear-grediant {
+        width: 500px;
+        height: 500px;
+        padding: 30px;
+        border: 5px solid green;
+        /*  "linear-grediant,radial-grediant"   */
+        /*   direction     ,  color-1,color-2,... */
+        background: linear-gradient(to bottom right, blue, red);
+    }
+
+
+    /*  Property # 17 "Background-blend-mode"   */
+
+
+    #background-blend-mode {
+        width: 500px;
+        height: 500px;
+        padding: 30px;
+        border: 5px solid black;
+        /* Background-blend-mode */
+        background-image: linear-gradient(to right, red, black), url(images/scenary.jpg);
+        background-blend-mode: lighten;
+
+
+    }
+
+
+    /*  Property # 17 "Mix-blend-mode"   */
+
+
+
+    #mix-blend-mode {
+        width: 500px;
+        height: 500px;
+        padding: 30px;
+        border: 5px solid black;
+        /* Background-blend-mode */
+        background-image: url(images/scenary.jpg);
+
+    }
+
+    #mix-blend {
+        background-color: red;
+        font-size: 55px;
+        margin-top: 150px;
+        text-align: center;
+        /* Mix-blend-mode */
+        mix-blend-mode: lighten;
+    }
+
+
+    /*  Property # 18 "Display Values"  */
+
+    /* 
+1) None,
+2) Inline,
+3) Block,
+4) Inline-block,
+5) List-item,
+6) Flex,
+7) Grid,
+8) Inline-flex,
+9) Inline-grid,
+10) Table,
+11) Inline-table,
+12) Table-row,
+13) Table-cell,
+14) Table-column,
+15) Table-caption,
+16) Table-column-group,
+17) Table-row-group,
+18) Table-header-group,
+19) Table-footer-group,
+20) Run-in,
+21) Contents,
+*/
+
+
+    /*  Property # 19 "Visibility Values"  */
+
+    /* 
+1) Visible,
+2) Hidden,
+3) Collapse,
+
+*/
+
+
+    /*  Property # 20 "Position Values"  */
+
+    /* 
+1) Static,
+2) Relative,
+3) Absolute,
+4) Fixed,
+5) Sticky,
+
+ --> Nessecary properties with position values
+
+1) Left,
+2) Right, 
+3) Top,
+4) Bottom,
+
+*/
+
+
+    /*  Property # 21 "Media Query "  */
+
+
+    /*  @media screen and (max-width : 900px){
+    .container{
+        width: 50%;
+    }
+ } */
+
+    /* 
+1) All,
+2) Print,
+3) Screen,
+4) Speech,
+
+*/
+
+
+
+    /*  Property # 22 "Table Properties "  */
+
+
+    /*  */
+
+    /* 
+1) border-spacing,
+2) border-collapse,
+3) vertical-align,
+4) caption-side,
+5) empty-cells,
+6) table-layout,
+
+*/
+
+
+    /*  Property # 23 "Resize value "  */
+
+
+
+
+    /* 
+1) horizontal,
+2) vertical,
+3) both,
+4) none,
+
+--> helper property of Resize value (compulsory)
+=> overflow: auto,
+*/
+
+
+
+    /*  Property # 24 "Cursor values "  */
+
+    /* This used for different mouse cursor */
+
+
+    /* 
+1) help,
+2) pointer,
+3) wait,
+4) cell,
+.
+.
+.
+*/
+
+
+
+    /*  Property # 25 "Measurement Units "  */
+
+    /* this used for different type of sizes units */
+
+
+    /* 
+1) px (pixel),
+2) % (percentage),
+3) em,
+4) rem,
+5) vw (viewport width),
+6) vh (viewport height ),
+7) vmax (viewport maximum ),
+8) vmin (viewport minimum ),
+
+     Absolute  Units 
+
+1) cm (Centimeters),
+2) mm (Millimeters),
+3) in (Inches),
+4) px (Pixels),
+5) pt (Points),
+6) pc (picas ),
+
+     Relative  Units 
+     
+1) em,
+2) rem (Relative em),
+3) ch ,
+4) ex,
+5) vw (viewport width),
+6) vh (viewport height ),
+7) vmax (viewport maximum ),
+8) vmin (viewport minimum ),
+9)  % (percentage),
+
+*/
+
+
+
+
+
+    /*  Property # 26 "var() function "  */
+
+    /* this is used for one thing is used on a multiple places   */
+
+
+    /* 
+var(),
+--> How to make variable?
+
+:root{
+--main-color:red;
+}
+
+--> usage on the classes,
+
+.classA {
+    background-color: var(--main-color);
+}
+
+*/
+
+
+
+
+
+
+    /* Basic Website Layout remaining video no 42 */
