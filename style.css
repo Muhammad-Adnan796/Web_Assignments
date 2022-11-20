@@ -1,0 +1,938 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+/* Property No 51 : calc() function  */
+/* This property is used for calculation " + , - , / , * " this operator is used in this function */
+
+#header {
+    border: 0px solid black;
+    background: papayawhip;
+    width: 100%;
+    height: 100px;
+}
+
+#content {
+    border: 0px solid black;
+    background: pink;
+    width: 100%;
+    height: calc(100vh - 200px);
+}
+
+#footer {
+    border: 0px solid black;
+    background: green;
+    width: 100%;
+    height: 100px;
+}
+
+
+
+/* Property No 52 : Clip path */
+/*  This property is used for making a shap with any thing  */
+
+/* 
+
+--> Values of Clip Path
+
+1) Circle,
+2) Ellipse,
+3) Inset,
+4) Polygon,
+
+
+Usage
+*/
+
+/* Website link whose make any type of shape : https://bennettfeely.com/clippy/ */
+
+#clip-path {
+    /*    radius at x-axis y-axis */
+    /* clip-path: circle(20% at 37% 47%); */
+    /*   horizontalLength verticalLength at x-axis y-axis */
+    /* clip-path: Ellipse(10% 40% at 37% 47%); */
+    /*   TopLength RightLength BottomLength LeftLength */
+    /* clip-path: Inset(10% 50% 40% 24%); */
+    /*    X-axis Y-axis             X-axis Y-axis              X-axis Y-axis */
+    /* Triangle */
+    clip-path: Polygon(
+            /* topPoint : */
+            37.5% 0%,
+            /* topLeft : */
+            0% 100%,
+            /* topRight : */
+            70% 100%);
+}
+
+
+
+/* Property No 53 : Shape Outside */
+/*  This property is used for making a shap with text  */
+
+/* 
+--> Values of Shape Outside 
+
+1) Circle,
+2) Ellipse,
+3) Inset,
+4) Polygon,
+
+
+Usage
+*/
+#shape-outside-img {
+    float: left;
+    clip-path: circle(30% at 30% 50%);
+    shape-outside: circle(30% at 30% 50%);
+    shape-margin: 20px;
+}
+
+
+
+/* Property No 54 : Filter Values */
+/*  This property is used for change the colors and effects of image  */
+
+/* 
+--> Values of Filter Values 
+
+1) none,
+2) blur(1% to 100%),
+3) brightness(100% is default value),
+4) contrast(100% is default value),
+5) drop-shadow(X-axis-value Y-axis-value blurness-value colorName),
+6) grayscale(1% to 100%),
+7) hue-rotate(0deg to 360deg),
+8) invert(1% to 100%),
+9) opacity(1% to 100%),
+10) saturate(100% is default value),
+11) sepia(1% to 100%),
+12) url(),
+
+
+Usage
+*/
+#filter-img {
+    filter: brightness(160%) saturate(200%)
+        /* like this it takes multple values ... */
+    ;
+}
+
+
+/* Property No 55 : Transition Values */
+/*  This property is used for the smooth effects on div, image ,and so on. */
+
+/* 
+
+--> Website for bezier-curve timing
+link: https://cubic-bezier.com/#.17,.67,.83,.67
+
+--> Values of Transition 
+
+1) transition, (shorthand method)
+2) transition-property,
+3) transition-duration,
+4) transition-delay,
+5) transition-timing-delay,
+
+-->   Transition timing function values
+
+    Units                          Description
+1) ease                     slow start,then fast,then end slowly
+2) linear                   same speed from start to end 
+3) ease-in                  slow start
+4) ease-out                 slow end
+5) ease-in-out              slow start and end
+6) step-start               
+7) step-end
+8) steps(4, end)
+9) cubic-bezier             lets you define your own values
+
+
+Usage
+*/
+
+
+#box-transition {
+    width: 150px;
+    height: 150px;
+    background: green;
+    /* transition-property: width,height,background ;
+    transition-duration: 2s,4s,2s; */
+
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function: cubic-bezier(0.1,0.7,1.0,0.1);
+    transition-delay: 1s; */
+
+    /* Shorthand Method */
+    transition: all 2s linear 1s;
+}
+
+#box-transition:hover {
+    width: 300px;
+    height: 300px;
+    background: orangered;
+}
+
+
+
+
+
+/* Property No 56 : Transform 2D  */
+/*  This property is used for rotate in two directions the div , image and so on . */
+
+/* 
+
+--> Values of Transform 2D 
+
+1) rotate(angle),        
+2) translate(x,y),
+3) translateX(x),
+4) translateY(y).
+5) scale(x,y),
+6) scaleX(x),              
+7) scaleY(y),
+8) skew(x-angle , y-angle),
+9) skewX(x-angle),
+10) skewY(y-angle),
+11) matrix(n,n,n,n,n,n),
+12) none,
+
+
+Usage
+*/
+
+#transform-2d {
+    width: 150px;
+    height: 150px;
+    background: tomato;
+    margin: 150px 300px;
+    transform: rotate(0deg);
+    transition: transform 2s;
+}
+
+#transform-2d:hover {
+    transform: rotate(360deg);
+}
+
+
+
+
+/* Property No 57 : Transform 3D  */
+/*  This property is used for rotate in three directions the div , image and so on . */
+
+/* 
+
+--> Values of Transform 3D 
+
+1) rotateX(angle),        
+2) rotateY(angle),   
+3) rotateZ(angle),   
+4) rotate3d(x,y,z,angle),
+5) translateZ(z),           
+6) translate3d(x,y,z),                        
+7) scaleZ(z),
+8) scale3d(x,y,z), 
+9) perspective(n),
+10) matrix(n,n,n,n,n,n),
+11) none,
+
+
+Usage
+*/
+
+
+
+/* base */
+.base {
+    background: gray;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    text-align: center;
+
+}
+
+
+/* Rotate */
+
+#rotate-x-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* 1-box */
+#rotate-x {
+    background: pink;
+    height: 150px;
+    width: 150px;
+    transform: rotateX(80deg);
+
+
+}
+
+/* 2-box */
+#rotate-x-pers {
+    background: pink;
+    height: 150px;
+    width: 150px;
+    transform: perspective(300px) rotateX(30deg);
+}
+
+
+#rotate-y-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* 3-box */
+#rotate-y {
+    background: red;
+    height: 150px;
+    width: 150px;
+    transform: rotateY(30deg);
+}
+
+/* 4-box */
+#rotate-y-pers {
+    background: red;
+    height: 150px;
+    width: 150px;
+    transform: perspective(300px) rotateY(30deg);
+}
+
+
+
+#rotate-z-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* 5-box */
+#rotate-z {
+    background: lawngreen;
+    height: 150px;
+    width: 150px;
+    transform: rotateZ(30deg);
+
+}
+
+/* 6-box */
+#rotate-z-pers {
+    background: lawngreen;
+    height: 150px;
+    width: 150px;
+    transform: perspective(300px) rotateZ(30deg);
+
+}
+
+
+/* translate */
+
+
+#translate {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* 7-box */
+#translate-z {
+    background: lightblue;
+    height: 150px;
+    width: 150px;
+    transform: perspective(300px) rotateY(30deg) translate3d(50px, 50px, 100px);
+}
+
+/* 8-box */
+#translate-z-pers {
+    background: lightblue;
+    height: 150px;
+    width: 150px;
+    transform: perspective(300px) rotateY(30deg) translateZ(100px);
+}
+
+/* 9-box */
+#translate-x {
+    background: lightblue;
+    height: 150px;
+    width: 150px;
+    transform: perspective(300px) rotateY(30deg) translateX(100px);
+}
+
+
+
+
+/* Scale */
+
+
+#scale {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* 10-box */
+#scale-z {
+    background: lightgreen;
+    height: 150px;
+    width: 150px;
+    transform: perspective(200px) scale3d(1, 1, 2) rotateX(50deg);
+}
+
+/* 11-box */
+#scale-z-pers {
+    background: lightgreen;
+    height: 150px;
+    width: 150px;
+    transform: perspective(200px) scaleZ(2) rotateX(30deg);
+}
+
+/* 12-box */
+#scale-z-pers-long {
+    background: lightgreen;
+    height: 150px;
+    width: 150px;
+    transform: perspective(200px) scaleY(2) rotateY(30deg);
+}
+
+
+
+/* Property No 58 : Perspective  */
+/*  This property is used for rotate in three directions the div , image and so on . */
+
+/* 
+Usage
+*/
+
+
+
+/* base */
+.base-pers {
+    background: gray;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    text-align: center;
+    perspective: 800px;
+
+}
+
+.base-pers1 {
+    background: gray;
+    height: 150px;
+    width: 150px;
+    margin: 100px;
+    text-align: center;
+
+}
+
+
+.rotate-pers {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Box-1 */
+#rotate-xp {
+    height: 150px;
+    width: 150px;
+    background: palegoldenrod;
+    transform: rotateX(60deg);
+
+}
+
+/* Box-2 */
+#rotate-pers-xp {
+    height: 150px;
+    width: 150px;
+    background: palegoldenrod;
+    transform: rotateX(60deg);
+}
+
+
+/* Box-3 */
+#rotate-yp {
+    height: 150px;
+    width: 150px;
+    background: lightcoral;
+    transform: rotateY(60deg);
+}
+
+/* Box-4 */
+#rotate-pers-yp {
+    height: 150px;
+    width: 150px;
+    background: lightcoral;
+    transform: rotateY(60deg);
+}
+
+
+
+/* Property No 59 : Transform Style  */
+/*  This property is used for rotation style  in three directions of div , image and so on . */
+
+/* 
+
+--> Values of Transform Style 
+
+1) flat,        
+2) preserve 3d,   
+
+Usage
+*/
+
+#transform-style {
+    width: 400px;
+    height: 250px;
+    margin: 0 0 70px 100px;
+    background: gray;
+    perspective: 800px;
+    transform: rotateY(30deg);
+    transform-style: preserve-3d;
+}
+
+#transform {
+    width: 400px;
+    height: 250px;
+    background: purple;
+    padding-top: 20px;
+    transform: rotateX(60deg);
+    transform-origin: top;
+}
+
+
+
+
+
+/* Property No 60 : Backface Visibility  */
+/*  This property is used for rotation style  in three directions of div , image and so on . */
+
+/* 
+
+--> Values of Backface Visibility
+
+1) visible,        
+2) hidden,   
+
+Usage
+*/
+
+#backface-visibility {
+    width: 300px;
+    height: 300px;
+    border: 0px solid black;
+    position: absolute;
+    perspective: 500px;
+}
+
+#backface-parent {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+
+}
+
+#backface-visibility:hover #backface-parent {
+    transform: rotateY(180deg);
+}
+
+.front,
+.back {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: rgb(245, 241, 241);
+    color: tomato;
+    font-size: 60px;
+    text-align: center;
+    line-height: 300px;
+    border-radius: 10px;
+    backface-visibility: hidden;
+}
+
+.back {
+    background: tomato;
+    color: #fff;
+    transform: rotateY(180deg);
+}
+
+
+
+
+/* Property No 61 : Animation  */
+/*  This property is used for CSS Animation . */
+
+/* 
+
+--> Values of Animation
+
+1) animation-name,        
+2) animation-duratiion,,   
+3) animation-timing-function,
+4) animation-delay,
+5) animation-iteration-count,
+6) animation-direction, 
+7) animation-fill-mode,
+8) animation-play-state,
+9) animation, ( Shorthand method of CSS animation ),
+
+
+-->  Values of animation-direction
+1) normal (Bydefault),
+2) Reverse,
+3) Alternate,
+4) Alternate-reverse,
+
+
+-->   Animation timing function values
+
+    Units                          Description
+1) ease                     slow start,then fast,then end slowly
+2) linear                   same speed from start to end 
+3) ease-in                  slow start
+4) ease-out                 slow end
+5) ease-in-out              slow start and end
+6) step-start               equivalent to steps( 1,start )
+7) step-end                 equivalent to steps( 1,end )
+8) steps(#,start / end)
+9) cubic-bezier             lets you define your own values ( 0 to 1 )
+
+
+
+
+--> Hoe to Perform this method
+
+@keyframes animation-example {
+  from {CSS Properties}
+  to {CSS Properties}
+
+}
+OR
+@keyframes animation-example {
+  0% {CSS Properties}
+  100% {CSS Properties}
+}
+
+
+Usage
+*/
+
+.animation {
+    border-radius: 20px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    left: 30%;
+    line-height: 300px;
+    background: white;
+    color: #03446A;
+    text-align: center;
+    font-size: 40px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 1);
+    /* animation-name: sample;
+    animation-duration: 2s;
+    animation-delay: 1s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+     */
+
+    /* ShortHand Method of Animation */
+    animation: sample 2s ease-in-out 1s infinite alternate-reverse;
+
+}
+
+@keyframes sample {
+    0% {
+        border-radius: 0%;
+        background-color: lightsalmon;
+        color: greenyellow;
+    }
+
+    100% {
+        border-radius: 50%;
+        background-color: tomato;
+        color: white;
+        box-shadow: 0 0 15px rgb(25, 236, 18);
+    }
+}
+
+
+
+/* Property No 62 : 7th property of Animation => Animation Fill Mode  and Animation play state    */
+/*  This property is used for CSS Animation at starting and end or stop and play the animation . */
+
+/* 
+
+--> Values of Animation Fill Mode
+
+1) none,        
+2) forwards,   
+3) backwards,
+4) both,
+
+
+--> Values of Animation play state 
+
+1) paused,        
+2) running,   
+
+
+Usage
+*/
+
+
+.animation-fill-mode {
+    width: 150px;
+    height: 150px;
+    background: black;
+    color: wheat;
+    margin-left: 20px;
+    text-align: center;
+    line-height: 150px;
+    animation-name: fill-mode-animate;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse;
+    animation-delay: 1s;
+    animation-fill-mode: forwards;
+
+    /* ShortHand Method of Animation */
+    /* animation: fill-mode-animate 2s  1s both infinite alternate-reverse; */
+    /* animation-play-state: paused; */
+
+}
+
+.animation-fill-mode :hover {
+    animation-play-state: paused;
+}
+
+@keyframes fill-mode-animate {
+    0% {
+        background: yellow;
+        width: 250px;
+    }
+
+    50% {
+        background: green;
+        width: 350px;
+    }
+
+    100% {
+        background: rebeccapurple;
+        width: 450px;
+    }
+}
+
+
+/* Property No 63 : Object fit  */
+/*  This property is used for make a  pictures responsive . */
+
+/* 
+
+--> Values of Object fit
+
+1) Fill,        
+2) Contain,   
+3) Cover,
+4) Scale-down,
+5) none,
+
+
+*/
+
+.object-fit-main-box{
+    display: flex;
+    flex-direction: row;
+    width: 70%;
+    margin: 0 auto;
+}
+
+.object-fit{
+    width: 32%;
+    border: 2px solid red;
+    float: left;
+    box-sizing: border-box;
+    padding: 10px;
+    margin-right: 2%;
+    margin-bottom: 13px;
+
+    
+}
+
+
+.imge{
+    width: 100%;
+    height: 400px;
+    object-fit: fill;     /* ( main property  ) */
+    object-position: left;    /* ( main property  ) */
+}
+
+.last{
+    margin-right: 0;
+}
+
+@media screen and (max-width: 950px) {
+    .object-fit-first {
+        width: 48%;
+    }    
+}
+
+
+@media screen and (max-width: 800px) {
+    .object-fit-first {
+        width: 100%;
+    }    
+}
+
+
+
+
+/* Property No 64 : User Select  */
+/*  This property is used for user can not select or a copy the text from my website . */
+
+/* 
+
+--> Values of User Select
+
+1) Auto,        
+2) None,   
+3) Text,
+4) all,
+
+Usage
+*/
+
+.user-select{
+    width: 500px;
+    height: 300px;
+    background: wheat;
+    border: 2px solid saddlebrown;
+    padding: 50px;
+    box-sizing: border-box;
+    margin-left: 30px;
+    user-select: none;    /* ( Main  Property  ) */
+    text-align: center;
+    
+}
+
+
+
+/* Property No 65 : Box-Decoration-Break  */
+/*  This property is used for after the break of line the border will be closed on each lines it's work in just span tag . */
+
+/* 
+
+--> Values of Box-Decoration-Break
+
+1) Slice,        
+2) Clone,   
+
+
+Usage
+*/
+
+.box-decoration-break{
+    background: wheat;
+    font-size: 21px;
+    line-height: 50px;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-box-decoration-break: clone;  /* (  Main Property )  */
+    padding: 10px;
+}
+
+
+/* Property No 66 : Quotations   */
+/*  This property is used for every type of quotes . */
+
+/* 
+
+
+Usage
+*/
+
+.quotations{
+    flex-direction: row;
+    display: flex;
+}
+
+
+blockquote {
+    border:none;
+    font-family:Georgia, "Times New Roman", Times, serif;
+    margin-bottom:-30px;
+    quotes: "‘‘" "’’" "‘‘" "’’";
+}
+
+blockquote h4 {
+font-size:21px;
+}
+
+blockquote h4:before { 
+content: open-quote;
+font-weight: bold;
+font-size:100px;
+color:#889c0b;
+} 
+blockquote h4:after { 
+content: close-quote;
+font-weight: bold;
+font-size:100px;
+color:#889c0b;
+  
+}
+
+
+/* Property No 67 : Border Image   */
+/*  This property is used for set image as a border of any thing  . */
+
+/* 
+
+Webite for generate border : border image generatore
+
+--> Values of Border Image
+
+1) Border-image-source,        
+2) Border-image-slice,   
+3) Border-image-width,
+4) Border-image-outset,
+5) Border-image-repeat,
+6) Border-image, 
+
+
+--> Values of Border Image Repeat
+
+1) Repeat,        
+2) Stretch,   
+3) Round,
+4) Space,
+
+
+Usage
+*/
+
+.border-image{
+    width: 350px;
+    height: 350px;
+    border: 20px solid ;
+    text-align: justify;
+    background: #889c0b;
+    padding: 20px;
+   /*  border-image-source: url(images/border-images-1.png);
+    border-image-slice: 40;
+    border-image-width: 15px;
+    border-image-outset: 0px;
+    border-image-repeat: round; */
+    /* Shorthand method of border image properties */
+    /* border-image: url(images/border-images-1.png) 40 / 15px / 0px round; */
+    border-image: linear-gradient(45deg, purple, orange) 1;
+}
