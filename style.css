@@ -1,0 +1,458 @@
+/* Property No 68 : Advance Selector  */
+/*  This property is used for selectors . */
+
+/* 
+
+--> Category of  Selector
+
+1) Simple selectors,
+     * Type selector,
+     * Class selector,
+     * ID selector,
+     * Universal selector,        
+2) Combinators Selectors, 
+     * Descendant selector,
+     * Drect Child selector,
+     * Adjacent sibling selector,
+     * General sibling selector,  
+3) Attribute Selector,
+     * A[attr]-Element with specific attribute,
+     * A[attr=val],
+     * A[attr^=val],
+     * A[attr|=val],
+     * A[attr$=val],
+     * A[attr*=val],
+     * A[attr~=val],
+4) Pseudo-classes & Pseudo-elements,
+ ==> Pseudo-classes
+     1) * :first-child,
+     2) * :last-child,
+     3) * :nth-child(),
+     4) * :nth-last-child(),
+     5) * :nth-last-of-type(),
+     6) * :nth-of-type(),
+     7) * :only-child,
+     8) * :only-of-type,
+     9) * :first-of-type,
+    10) * :last-of-type,
+    11) * :empty,
+    12) * :not(),
+    13) * :lang(),
+    14) * :link,
+    15) * :hover,
+    16) * :visited,
+    17) * :active,
+    18) * :target,
+    19) * :focus,
+    20) * :checked,
+    21) * :disabled,
+    22) * :enabled,
+    23) * :required,
+    24) * :optional,
+    25) * :in-range,
+    26) * :out-of-range,
+    27) * :read-only,
+    28) * :read-write,
+    29) * :valid,
+    30) * :invalid,
+    31) * :default,
+    32) * :root,
+
+
+ ==> Pseudo-elements
+     1) * ::after,
+     2) * ::before,
+     3) * ::first-letter,
+     4) * ::first-line,
+     5) * ::selection,
+     6) * ::placeholder,    
+
+
+
+
+1)  Examples of Simple selectors
+
+
+
+a)  Type selector,
+
+p{
+    color: red ;
+}
+
+b) Class selector,
+
+.head{
+    color: red ;
+}
+
+c) ID selector,
+
+#box{
+    color: red ;
+}
+
+d)  Universal selector,  ( this selector is for select the all tags which is found in html file )
+
+ ( this selector is for select the all tags which is found in html file )
+* {
+    color: red ; 
+}
+and
+ ( this selector is for select the all those tags which are found inside the selected id ,class or tag )
+#content *{
+     color: red ;
+}
+
+
+
+
+
+2)  Examples of Combinators Selectors, 
+
+
+a)  Descendant selector,
+
+ ( In this selector i am target to the p tag which is inside the box );
+.box p {
+    color: red;
+}
+                                             OR
+ ( In this selector i am target to the span tag which is inside the p );
+p span{
+    color: red ;
+} 
+                                             OR
+  ( In this selector i am target to the span tag which is inside the div and inside the p );
+div p span{
+    color: red ;
+} 
+
+
+b)  Drect Child selector,
+
+
+ ( In this selector i am target to the li tags which is inside the ul tag );
+ul > li {
+    color: red ;
+}
+                                            OR
+ ( In this selector i am target to the p tags which is inside the box tag );
+#box > p {
+    color: red ;
+}
+
+
+c)  Adjacent sibling selector,
+
+( In this selector i am target to the p tag which is immidiatly next sibling with the div tag );
+div + p {
+    color: red ;
+}
+
+d)  General sibling selector, 
+
+( In this selector i am target to the all next p tags which is the forward siblings of ul tag );
+ul ~ p {
+    color: red ;
+}
+
+        <!-- Property no 69 : Attribute Selector => Property of Advance Selectors -->
+
+
+3)  Examples of Attribute Selector,
+
+a) A[attr],
+
+( In this selector i am target to that image tags in which specific "title" attribute has been used );
+img[title]{
+    border: 3px solid red;
+}
+
+
+
+b) A[attr=val],
+
+( In this selector i am target to that image tags in which exact "alt" attribute and his value "Image of cat" has been used );
+img[alt="Image of cat"]{
+    border: 3px solid red;
+}
+
+
+c) A[attr^=val],
+
+( In this selector i am target to that image tags in which attribute's value will be same of starting word like "Image" has been used );
+img[alt="Image"]{
+    border: 3px solid red;
+}
+
+
+d) A[attr|=val],
+
+( In this selector i am target to that image tags in which hyphen is with attribute's value will be same of starting word like "Image" has been used );
+img[alt|="Image"]{
+    border: 3px solid red;
+}
+
+
+e) A[attr$=val],
+
+( In this selector i am target to that image tags in which attribute's value will be same of ends word like "cat" has been used );
+img[alt$="of"]{
+    border: 3px solid red;
+}
+
+
+f) A[attr*=val],
+
+( In this selector i am target to that image tags in which value occurs anywhere in attribute like "of" has been used );
+img[alt*="of"]{
+    border: 3px solid red;
+}
+
+
+g) A[attr~=val],
+
+( In this selector i am target to that image tags in which attribute's value is separated with space like " of " has been used );
+img[alt~="of"]{
+    border: 3px solid red;
+}
+
+
+
+           <!-- Property no 70 : Pseudo-classes  => Property of Advance Selectors -->
+
+ 
+1) * :first-child,   ( This property is target to the first child of any tags which are found inside the any tag );
+ 
+#list:first-child {
+color:red;
+} 
+     
+2) * :last-child,    ( This property is target to the last child of any tags which are found inside the any tag );
+     
+#list:last-child {
+color:red;
+} 
+
+3) * :nth-child(),  ( This property is target to that particular tag whose index number is given in the round braces and which is found inside and beginning the any tag);
+ 
+#list:nth-child(2) {
+color:red;
+} 
+
+4) * :nth-last-child(), ( This property is target to that particular tag whose index number is given in the round braces and which is found inside and checked at the end of the any tag);
+
+#list:nth-last-child(3n) {
+color:red;
+} 
+
+5) * :nth-last-of-type(),   ( This property is target to that tags which are two same tags are found in the siblings but checked from the end the 2nd tag is the targeted tag even that is with parant tag or without parant tag );
+
+li:nth-last-of-type(3n) {
+  color:red;
+} 
+
+6) * :nth-of-type(),  ( This property is target to that tags which are two same tags are found in the siblings the 2nd tag is the targeted tag even that is with parant tag or without parant tag );
+
+li:nth-of-type(3n) {
+    color:red;
+} 
+
+7) * :only-child, ( This property is target to that tags whose itself a child of another parant tag if this child have more then a 1 siblings then this property will be not working );
+
+li:only-child {
+    color:red;
+} 
+8) * :only-of-type,  ( This property is target to that tags whose itself a child of another parant tag if this child have more then a 1 same siblings tags then this property will be not working );
+
+p:only-of-type {
+    color:red;
+} 
+9) * :first-of-type, ( This property is target to that tags who is the first tag of the body and first tag of the any parant tag);
+
+p:first-of-type {
+    color:red;
+} 
+
+10) * :last-of-type, ( This property is target to that tags who is the last tag of the body and last tag of the any parant tag);
+
+p:last-of-type {
+    color:red;
+} 
+
+11) * :empty,     ( This property is target to that tags who is the completely empty even if space will also found its not working);
+
+p:empty {
+    color:red;
+}
+
+12) * :not(),    ( This property is target to all those tags who is found in the body except that tag whose is given any attribute that attribute name is given in round braces );
+
+p:not(.className) {
+    color:red;
+}
+
+13) * :lang(),   ( This property is target to the language attribute value like ( en = english ) );
+
+p:lang(en) {
+    color:red;
+}
+
+14) * :link,    ( This property is target to the link  );
+
+p a:link {
+    color:red;
+}
+
+15) * :hover,   ( This property is target to anchor tag when the mouse cursur is on that tag );
+
+p a:hover {
+    color:red;
+}
+
+16) * :visited,  ( This property is target to the anchor tag when we are click on that thing );
+
+p a:visited {
+    color:red;
+}
+
+17) * :active,  ( This property is target to the anchor tag when the mouse curcur is pressed and hold on it till then unclick);
+
+p a:active {
+    color:red;
+}
+
+18) * :target,  ( This property is target to that tag in which relative linking with id like i click on one point and action perform on another point );
+
+p :target {
+    color:red;
+}
+                                     This property is for form 19 to 31
+19) * :focus,  ( This property is target to input tags when i click on the input field );
+
+input:focus {
+    color:red;
+}
+
+20) * :checked,  ( This property is target to the checkboxes or a radio button when we click on it );
+
+input[type="checkbox"]:checked {
+    color:red;
+}
+
+21) * :disabled,  ( This property is target to the input field for disable);
+
+input:disabled {
+    color:red;
+}
+
+22) * :enabled,  ( This property is target to the input field for enable);
+
+input:enabled {
+    color:red;
+}
+
+23) * :required,  ( This property is target to the input field for filling is necessary);
+
+input:required {
+    color:red;
+}
+
+24) * :optional,  ( This property is target to the input field for for optional filling is not necessary);
+
+input:optional {
+    color:red;
+}
+
+25) * :in-range,  ( This property is target to the number input field when the value is in our range then target it);
+
+input:in-range {
+    color:red;
+}
+
+26) * :out-of-range,  ( This property is target to the number input field when the value is out of our range then target it);
+
+input:out-of-range {
+    color:red;
+}
+
+27) * :read-only,  ( This property is target to the input field for just for read not write in it);
+
+input:read-only {
+    color:red;
+}
+
+28) * :read-write,  ( This property is target to the input field for we can read and write in it);
+
+input:read-write {
+    color:red;
+}
+
+29) * :valid,  ( This property is target to the input field for validation);
+
+input:valid {
+    color:red;
+}
+
+30) * :invalid,  ( This property is target to the input field for invalidation);
+
+input:invalid {
+    color:red;
+}
+
+31) * :default,  ( This property is target to the input field for default value);
+
+input:default {
+    color:red;
+}
+
+32) * :root,  ( This property is used when we use the one thing on a multy places then we use a root for make a blue print for usage on multy places);
+
+:root {
+    --maincolor:red;
+}
+h1{
+color:var(--maincolor)
+}
+          
+
+                 <!-- Property no 71 :  Pseudo-elements => Property of Advance Selectors -->
+
+1) * ::first-letter,   ( first-letter pseudo element is target to the first letter of the given tag like h1 );
+
+h1::first-letter{
+color: green
+}
+
+2) * ::first-line,   ( first-line pseudo element is target to the first line of the given tag like h1 );
+
+h1::first-line{
+color:green
+}
+
+3) * ::selection,   ( selection pseudo element is used when we select the text on website and how decorate that );
+
+h1::selection{
+color:green
+}
+
+4) * ::placeholder,   ( placeholder pseudo element is used for input text field when we write the label or a hint text );
+
+::placeholder{
+color:green
+}
+              
+                <!-- Property no 72 : after & before => Property of Pseudo-elements => Property of Advance Selectors -->
+
+5) * ::after,   ( after pseudo element is used for write any text after any targeted tag and content property is necessary for this  );
+
+p::after{
+color:green
+}
+ 
+6) * ::before,   ( after pseudo element is used for write any text before any targeted tag and content property is necessary for this );
+
+p::befor{
+color:green
+}
