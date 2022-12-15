@@ -1,0 +1,140 @@
+/* For Responsivness of left side box */
+@media only screen and (max-width: 1200px) {
+
+    /* address-icon Box Styling */
+    .address-icon {
+        width: 142px;
+        height: 60px;
+        border-radius: 0px 70px 70px 0px;
+        margin: 15px 10px 10px 0px;
+        background-color: var(--yellowclr);
+        box-sizing: border-box;
+        position: relative;
+
+    }
+}
+
+@media only screen and (min-width:900px) {
+
+    /* address-icon Box Styling */
+    .address-icon {
+        width: 110px;
+        height: 60px;
+        border-radius: 0px 70px 70px 0px;
+        margin: 15px 10px 10px 0px;
+        background-color: var(--yellowclr);
+        box-sizing: border-box;
+        position: relative;
+
+    }
+}
+
+
+@media only screen and (max-width: 900px) {
+    .left-bx {
+        background-color: var(--blackclr);
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Image Box Styling */
+    .img-bx {
+        background-color: var(--yellowclr);
+        width: 40%;
+        height: 260px;
+        border-radius: 100% 100% 0px 0px;
+        margin: 50px auto 30px auto;
+        overflow: hidden;
+        padding-top: 20px;
+        box-sizing: border-box;
+        position: sticky;
+
+    }
+
+    /* Contact Box Styling */
+    .contact-me {
+        padding: 2%;
+        border-radius: 90px;
+        border: 4px solid var(--yellowclr);
+        height: 30px;
+        width: 40%;
+        margin: 7% auto;
+        position: sticky;
+    }
+
+    /* address-icon Box Styling */
+    .address-icon {
+        width: 70px;
+        height: 60px;
+        border-radius: 0px 70px 70px 0px;
+        margin: 10px 10px 10px 0px;
+        background-color: var(--yellowclr);
+        position: static;
+        box-sizing: border-box;
+
+    }
+
+    /* address-h4 Box Styling */
+    .address h4 {
+        text-transform: uppercase;
+        margin: 10px auto auto 0px;
+        font-size: 18px;
+        font-family: var(--font-family);
+        color: var(--whiteclr);
+        font-weight: 400;
+        justify-content: start;
+        letter-spacing: 1px;
+    }
+
+}
+
+/* Under 600px Width */
+
+@media only screen and (max-width: 600px) {
+    .left-bx {
+        background-color: var(--blackclr);
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    /* Image Box Styling */
+    .img-bx {
+        background-color: var(--yellowclr);
+        width: 45%;
+        height: 220px;
+        border-radius: 100% 100% 0px 0px;
+        margin: 50px auto 30px auto;
+        overflow: hidden;
+        padding-top: 20px;
+        box-sizing: border-box;
+        position: sticky;
+
+    }
+
+    /* Contact Box Styling */
+    .contact-me {
+        padding: 2%;
+        border-radius: 90px;
+        border: 4px solid var(--yellowclr);
+        height: 30px;
+        width: 40%;
+        margin: 7% auto;
+        position: sticky;
+    }
+
+    /* address-icon Box Styling */
+    .address-icon {
+        width: 82px;
+        height: 60px;
+        border-radius: 0px 70px 70px 0px;
+        margin: 10px 10px 10px 0px;
+        background-color: var(--yellowclr);
+        position: static;
+        box-sizing: border-box;
+
+    }
+}

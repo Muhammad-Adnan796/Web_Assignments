@@ -1,0 +1,40 @@
+@import "./left-bx.css";
+@import "./right-bx.css";
+@import "./media-left.css";
+@import "./media-right.css";
+
+body {
+    background-color: #bbb7bb;
+    padding: 10px 50px;
+    text-align: center;
+    justify-content: center;
+    box-sizing: border-box;
+}
+
+:root {
+    --yellowclr: rgb(240, 180, 50);
+    --whiteclr: rgb(248, 248, 248);
+    --blackclr: rgb(39, 37, 37);
+    --font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* Main Box Styling */
+.main-bx {
+    display: grid;
+    grid-template-columns: 25% 60%;
+    justify-content: center;
+    box-sizing: border-box;
+
+}
+
+
+@media only screen and ( max-width: 900px ){
+    .main-bx {
+        justify-content: center;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+    
+    }
+}

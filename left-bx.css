@@ -1,0 +1,279 @@
+/* Left Box Styling */
+.left-bx {
+    background-color: var(--blackclr);
+    height: 1300px;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+}
+
+/* Image Box Styling */
+.img-bx {
+    background-color: var(--yellowclr);
+    width: 70%;
+    height: 210px;
+    border-radius: 100% 100% 0px 0px;
+    margin: 50px auto 30px auto;
+    overflow: hidden;
+    padding-top: 20px;
+    box-sizing: border-box;
+    position: sticky;
+
+}
+
+/* Contact Box Styling */
+.contact-me {
+    padding: 2%;
+    border-radius: 90px;
+    border: 4px solid var(--yellowclr);
+    height: 30px;
+    width: 170px;
+    margin: 15% auto;
+    position: sticky;
+}
+
+/*  h3 inside Contact Box Styling */
+.contact-me h3 {
+    text-transform: uppercase;
+    margin: auto;
+    font-size: 20px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 500;
+    position: sticky;
+
+}
+
+/* address-main Box Styling */
+.address-main-bx {
+    display: flex;
+    flex-direction: row;
+    margin: 0px 10px 0px 0px;
+}
+
+/* address-icon Box Styling */
+.address-icon {
+    width: 105px;
+    height: 60px;
+    border-radius: 0px 70px 70px 0px;
+    margin: 15px 10px 10px 0px;
+    background-color: var(--yellowclr);
+    box-sizing: border-box;
+    position: relative;
+
+}
+
+/* address-icon Box Styling */
+.address-icon i {
+    color: var(--whiteclr);
+    font-size: 30px;
+    margin: 15px 2px 2px 20px;
+}
+
+/* address-h4 Box Styling */
+.address h4 {
+    text-transform: uppercase;
+    margin: 15px auto 0px 0px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 400;
+    justify-content: start;
+    letter-spacing: 1px;
+}
+
+/* address-span Box Styling */
+.address span {
+    text-transform: capitalize;
+    font-size: 10px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 200;
+    justify-content: start;
+    letter-spacing: 1px;
+
+
+
+}
+
+.address {
+    text-align: start;
+    justify-content: start;
+
+}
+
+/* web-main Box Styling */
+.web-main-bx {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* web-icon Box Styling */
+.web-icon {
+    width: 70px;
+    height: 60px;
+    border-radius: 0px 70px 70px 0px;
+    margin: 15px 10px 10px 0px;
+    background-color: var(--yellowclr);
+    box-sizing: border-box;
+    position: static;
+
+}
+
+/* web-icon Box Styling */
+.web-icon i {
+    color: var(--whiteclr);
+    font-size: 30px;
+    margin: 15px 2px 2px 20px;
+}
+
+/* web-h4 Box Styling */
+.web h4 {
+    text-transform: uppercase;
+    margin: 15px auto 0px 0px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 400;
+    justify-content: start;
+    letter-spacing: 1px;
+}
+
+/* web-span Box Styling */
+.web span a {
+    text-transform: capitalize;
+    font-size: 10px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 200;
+    justify-content: start;
+    letter-spacing: 1px;
+    text-decoration: none;
+
+}
+
+.web {
+    text-align: start;
+    justify-content: start;
+
+}
+
+/* phone-main Box Styling */
+.phone-main-bx {
+    display: flex;
+    flex-direction: row;
+}
+
+/* phone-icon Box Styling */
+.phone-icon {
+    width: 70px;
+    height: 60px;
+    border-radius: 0px 70px 70px 0px;
+    margin: 15px 10px 10px 0px;
+    background-color: var(--yellowclr);
+    box-sizing: border-box;
+    position: static;
+}
+
+/* phone-icon Box Styling */
+.phone-icon i {
+    color: var(--whiteclr);
+    font-size: 30px;
+    margin: 15px 2px 2px 20px;
+}
+
+/* phone-h4 Box Styling */
+.phone h4 {
+    text-transform: uppercase;
+    margin: 15px auto 0px 0px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 400;
+    justify-content: start;
+    letter-spacing: 1px;
+}
+
+/* phone-span Box Styling */
+.phone span {
+    text-transform: capitalize;
+    font-size: 10px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 200;
+    justify-content: start;
+    letter-spacing: 1px;
+
+}
+
+.phone {
+    text-align: start;
+    justify-content: start;
+
+}
+
+/* Skill HTML Main Container */
+.skill-html {
+    text-align: center;
+    justify-content: center;
+}
+
+/* skill-html-h4 Box Styling */
+.skill-html-h4 h4 {
+    text-transform: uppercase;
+    margin: 5% auto 3%px 0px;
+    font-size: 18px;
+    font-family: var(--font-family);
+    color: var(--whiteclr);
+    font-weight: 600;
+    justify-content: center;
+    letter-spacing: 1px;
+}
+
+/* Parcent-100  Box Styling  */
+.percant-100 {
+    width: 70%;
+    height: 20px;
+    background-color: var(--whiteclr);
+    margin: 5px auto 5px auto;
+    border-radius: 20px;
+
+}
+
+/* Parcent Box Styling  */
+.percant {
+    width: 90%;
+    height: 20px;
+    background-color: var(--yellowclr);
+    border-radius: 20px;
+
+}
+
+/* Dots Box Styling  */
+.dots {
+    display: flex;
+    flex-direction: row;
+    margin: 120px auto 10px auto;
+    justify-content: center;
+    text-align: center;
+    position: sticky;
+}
+
+.dots-1 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--yellowclr);
+    border-radius: 100%;
+    margin: 2px;
+
+}
+
+.dots-2 {
+    width: 20px;
+    height: 20px;
+    background-color: var(--whiteclr);
+    border-radius: 100%;
+    margin: 2px;
+
+}

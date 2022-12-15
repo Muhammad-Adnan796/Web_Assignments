@@ -1,0 +1,536 @@
+@media only screen and (max-width:1200px) and (min-width:1000px) {
+
+    /* Name Box Styling */
+    .name {
+        height: 8%;
+        width: 100%;
+        margin: auto;
+        background-color: var(--yellowclr);
+        text-align: center;
+        padding-top: 0.2%;
+        padding-bottom: 0.2%;
+
+    }
+
+    /* Name h1 Box Styling */
+    .name h1 {
+        color: var(--whiteclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 260%;
+
+    }
+
+    .bx-1,
+    .bx-2,
+    .bx-3 {
+        display: none;
+    }
+
+    /* Year Box Styling */
+    .years-2,
+    .years-3,
+    .years-1 {
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 35%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        text-align: end;
+        padding-right: 2%;
+        padding-top: 0.5%;
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 30px;
+        box-sizing: border-box;
+        position: static;
+
+    }
+
+    /* 1 Box Styling */
+    .contain-1 {
+        height: 70px;
+        width: 70px;
+        background-color: var(--yellowclr);
+        border-radius: 50%;
+        margin: auto 10px auto 20px;
+        box-sizing: border-box;
+        color: var(--whiteclr);
+        font-size: 55px;
+        font-weight: 600;
+        font-family: var(--font-family);
+
+    }
+
+    .board-2,
+    .board-3,
+    .board-1 {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 400;
+        margin: auto 0px auto 40%;
+        text-align: start;
+
+    }
+    
+    .english {
+        text-transform: uppercase;
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 95%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 25px;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    .language-english {
+        margin-left: -55px;
+    }
+
+    .language-urdu {
+        margin-left: 35%;
+    }
+
+    .language-hindko {
+        margin-left: -6%;
+    }
+
+    .language-pashto {
+        margin-left: 36%;
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1000px) and (min-width:900px) {
+
+    .bx-7,
+    .bx-5,
+    .bx-6 {
+        display: none;
+    }
+
+    /* Year Box Styling */
+    .years-2,
+    .years-3,
+    .years-1 {
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 40%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        text-align: end;
+        padding-right: 2%;
+        padding-top: 0.5%;
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 30px;
+        box-sizing: border-box;
+        position: static;
+
+    }
+
+    /* 1 Box Styling */
+    .contain-1 {
+        height: 70px;
+        width: 70px;
+        background-color: var(--yellowclr);
+        border-radius: 50%;
+        margin: auto 10px auto 20px;
+        box-sizing: border-box;
+        color: var(--whiteclr);
+        font-size: 55px;
+        font-weight: 600;
+        font-family: var(--font-family);
+
+    }
+
+    .board-2,
+    .board-3,
+    .board-1 {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 400;
+        margin: auto 0px auto 45%;
+        text-align: start;
+
+    }
+    
+    .english {
+        text-transform: uppercase;
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 95%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 25px;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    .language-english {
+        margin-left: -35px;
+    }
+
+    .language-urdu {
+        margin-left: 30%;
+    }
+
+    .language-hindko {
+        margin-left: -3%;
+    }
+
+    .language-pashto {
+        margin-left: 31%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+
+    /* Right Box Styling */
+    .right-bx {
+        background-color: var(--whiteclr);
+        height: 100%;
+        justify-content: center;
+        text-align: center;
+        width: 100%;
+    }
+
+    .bx-7,
+    .bx-8 {
+        display: none;
+    }
+
+    /* Year Box Styling */
+    .years-2,
+    .years-3,
+    .years-1 {
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 32%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        text-align: end;
+        padding-right: 2%;
+        padding-top: 0.5%;
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 30px;
+        box-sizing: border-box;
+        position: static;
+
+    }
+
+    /* 1 Box Styling */
+    .contain-1 {
+        height: 70px;
+        width: 70px;
+        background-color: var(--yellowclr);
+        border-radius: 50%;
+        margin: auto 10px auto 20px;
+        box-sizing: border-box;
+        color: var(--whiteclr);
+        font-size: 55px;
+        font-weight: 600;
+        font-family: var(--font-family);
+
+    }
+
+    .board-2,
+    .board-3,
+    .board-1 {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 400;
+        margin: auto 0px auto 37%;
+        text-align: start;
+
+    }
+    
+    .english {
+        text-transform: uppercase;
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 95%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 25px;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    .language-english {
+        margin-left: -55px;
+    }
+
+    .language-urdu {
+        margin-left: 35%;
+    }
+
+    .language-hindko {
+        margin-left: -6%;
+    }
+
+    .language-pashto {
+        margin-left: 36%;
+    }
+}
+
+
+@media only screen and (max-width:700px) and (min-width:600px) {
+
+    .bx-4,
+    .bx-5,
+    .bx-6,
+    .bx-7,
+    .bx-8 {
+        display: none;
+    }
+
+    .board-2,
+    .board-3,
+    .board-1 {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 400;
+        margin: auto 0px auto 37%;
+        text-align: start;
+
+    }
+
+    .bscs {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2% 0px auto -70px;
+        box-sizing: border-box;
+    }
+
+    .intermediat {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2% 0px auto 70px;
+        box-sizing: border-box;
+    }
+
+    .matric {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2% 0px auto -35px;
+        box-sizing: border-box;
+    }
+
+
+
+    /* Endermediate Education Styling */
+    /* years-main-bx Box Styling */
+    .years-main-bx-2,
+    .years-main-bx-3,
+    .years-main-bx-1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4% auto 2% 0px;
+    }
+
+    /* Year Box Styling */
+    .years-2,
+    .years-3,
+    .years-1 {
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 50%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        text-align: end;
+        padding-right: 2%;
+        padding-top: 0.5%;
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 30px;
+        box-sizing: border-box;
+        position: static;
+
+    }
+    
+    .english {
+        text-transform: uppercase;
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 95%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 25px;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    .language-english {
+        margin-left: -40px;
+    }
+
+    .language-urdu {
+        margin-left: 30%;
+    }
+
+    .language-hindko {
+        margin-left: -3%;
+    }
+
+    .language-pashto {
+        margin-left: 32%;
+    }
+
+}
+
+@media only screen and (max-width:600px) {
+
+    .bx-4,
+    .bx-5,
+    .bx-6,
+    .bx-7,
+    .bx-8,
+    .bx-1,
+    .bx-2,
+    .bx-3,
+    .bx-9,
+    .bx-10 {
+        display: none;
+    }
+
+    .board-2,
+    .board-3,
+    .board-1 {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: capitalize;
+        font-size: 20px;
+        font-weight: 400;
+        margin: auto 0px auto 37%;
+        text-align: start;
+
+    }
+
+    /* Endermediate Education Styling */
+    /* years-main-bx Box Styling */
+    .years-main-bx-2,
+    .years-main-bx-3,
+    .years-main-bx-1 {
+        display: flex;
+        flex-direction: column;
+        margin-top: 4% 0px auto 0px;
+    }
+
+    /* Year Box Styling */
+    .years-2,
+    .years-3,
+    .years-1 {
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 70%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        text-align: end;
+        padding-right: 2%;
+        padding-top: 0.5%;
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 30px;
+        box-sizing: border-box;
+        position: static;
+
+    }
+
+    .bscs {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2% 0px auto -60px;
+        box-sizing: border-box;
+    }
+
+    .intermediat {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2% 0px auto 80px;
+        box-sizing: border-box;
+    }
+
+    .matric {
+        color: var(--blackclr);
+        font-family: var(--font-family);
+        text-transform: uppercase;
+        font-size: 30px;
+        font-weight: 600;
+        margin: 2% 0px auto -20px;
+        box-sizing: border-box;
+    }
+
+
+    .english {
+        text-transform: uppercase;
+        background-color: var(--blackclr);
+        height: 50px;
+        width: 95%;
+        border-radius: 0px 30px 30px 0px;
+        color: var(--whiteclr);
+        font-weight: 600;
+        font-family: var(--font-family);
+        font-size: 25px;
+        box-sizing: border-box;
+        text-align: center;
+
+    }
+
+    .language-english {
+        margin-left: -10px;
+    }
+
+    .language-urdu {
+        margin-left: 25%;
+    }
+
+    .language-hindko {
+        margin-left: 5%;
+    }
+
+    .language-pashto {
+        margin-left: 25%;
+    }
+
+}

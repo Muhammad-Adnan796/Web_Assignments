@@ -1,0 +1,224 @@
+/*                     Right Box */
+
+/* Right Box Styling */
+.right-bx {
+    background-color: var(--whiteclr);
+    height: 1300px;
+}
+
+.web-developer {
+    color: var(--blackclr);
+    text-transform: uppercase;
+    margin: 30px auto 10px auto;
+    font-family: var(--font-family);
+    position: relative;
+}
+
+/* Name Box Styling */
+.name {
+    height: 8%;
+    width: 100%;
+    background-color: var(--yellowclr);
+    margin: auto;
+    text-align: center;
+    padding-top: 0.2%;
+    padding-bottom: 0.2%;
+
+}
+
+/* Name h1 Box Styling */
+.name h1 {
+    color: var(--whiteclr);
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-size: 250%;
+
+}
+
+/* Education box Styling */
+.edu-bx {
+    display: flex;
+    flex-direction: row;
+    margin-top: 3%;
+    justify-content: end;
+    position: sticky;
+    box-sizing: border-box;
+}
+
+/* 1 Box Styling */
+.contain-1 {
+    height: 70px;
+    width: 70px;
+    background-color: var(--yellowclr);
+    border-radius: 50%;
+    margin: auto 10px auto 20px;
+    box-sizing: border-box;
+    color: var(--whiteclr);
+    font-size: 55px;
+    font-weight: 600;
+    font-family: var(--font-family);
+   
+}
+.bx-1{
+    display: none;
+}
+
+/* Education text Styling */
+.education {
+    display: inline-block;
+    text-transform: uppercase;
+    font-size: 40px;
+    font-weight: 700;
+    margin: auto 20px auto 0px;
+    font-family: var(--font-family);
+}
+
+/* empty Boxes Styling */
+.emp-bx {
+    height: 15px;
+    width: 15px;
+    border-radius: 100%;
+    background-color: var(--yellowclr);
+    margin: auto 10px auto 10px;
+    box-sizing: border-box;
+    position: relative;
+}
+
+/* Endermediate Education Styling */
+/* years-main-bx Box Styling */
+.years-main-bx-2,
+.years-main-bx-3,
+.years-main-bx-1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.intermediat,
+.matric,
+.bscs {
+    color: var(--blackclr);
+    font-family: var(--font-family);
+    text-transform: uppercase;
+    font-size: 30px;
+    font-weight: 600;
+    margin: auto 0px auto 5%;
+}
+
+/* Year Box Styling */
+.years-2,
+.years-3,
+.years-1 {
+    background-color: var(--blackclr);
+    height: 50px;
+    width: 32%;
+    border-radius: 0px 30px 30px 0px;
+    color: var(--whiteclr);
+    text-align: end;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: 30px;
+    box-sizing: border-box;
+    position: static;
+
+}
+
+/* description 1 Box Styling */
+.descript-2,
+.descript-3,
+.descript-1 {
+    display: flex;
+    flex-direction: row;
+
+}
+
+/* board description 1 Box Styling */
+.board-2,
+.board-3,
+.board-1 {
+    color: var(--blackclr);
+    font-family: var(--font-family);
+    text-transform: capitalize;
+    font-size: 20px;
+    font-weight: 400;
+    margin: auto 0px auto 37%;
+    text-align: start;
+
+}
+
+/* Flutter Experience Styling */
+.flutter-slid-1 {
+    width: 35%;
+    height: 20px;
+    background-color: var(--blackclr);
+    margin: 1% 0px auto 37%;
+    border-radius: 20px;
+}
+
+.percant-fl-sli-1 {
+    background-color: var(--yellowclr);
+    height: 20px;
+    border-radius: 20px;
+}
+
+/* Languages Styling */
+.language-bx {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4%;
+}
+
+.english {
+    text-transform: uppercase;
+    background-color: var(--blackclr);
+    height: 50px;
+    width: 80%;
+    border-radius: 0px 30px 30px 0px;
+    color: var(--whiteclr);
+    text-align: end;
+    padding-right: 2%;
+    padding-top: 0.5%;
+    font-weight: 600;
+    font-family: var(--font-family);
+    font-size: 30px;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.language-english {
+    margin-left: 5%;
+}
+
+.language-urdu {
+    margin-left: 42%;
+}
+
+.language-hindko {
+    margin-left: 10%;
+}
+
+.language-pashto {
+    margin-left: 42%;
+}
+
+.flutter-slid-english {
+    width: 30%;
+    height: 20px;
+    background-color: var(--blackclr);
+    margin: 1% auto;
+    border-radius: 20px;
+}
+
+.flutter-slid-lang-1 {
+    display: flex;
+    flex-direction: row;
+}
+
+.percant-eng-sli-1 {
+    background-color: var(--yellowclr);
+    height: 20px;
+    border-radius: 20px;
+}
