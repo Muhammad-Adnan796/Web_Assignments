@@ -1,0 +1,564 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar {
+    background-color: rgb(43, 41, 41);
+    height: 45px;
+    width: 100%;
+}
+
+.categories {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    color: #f5f5f7;
+    list-style: none;
+    font-size: 12px;
+    font-family: "SF Pro Text", "Myriad Set Pro", "SF Pro Icons", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+    font-weight: 0px;
+    width: 100%;
+    justify-content: center;
+    opacity: 0.8;
+    letter-spacing: 0.5px;
+    height: 100%;
+}
+
+.categories li,
+i:hover {
+    color: white;
+    cursor: default;
+}
+
+.menu {
+    display: none;
+}
+
+/* Apple Icon Styling */
+.categories>li>i {
+    color: #f5f5f7 !important;
+    font-size: 17px;
+}
+
+.categories li {
+    margin: auto 1.5%;
+}
+
+/* 2nd div styling */
+
+.iphone-14 {
+    background-color: #fbfbfd;
+    background-image: url("./images/iphone-14.jpg");
+    background-size: contain;
+    background-position: center;
+    height: 580px;
+    width: 100%;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 2.5%;
+}
+
+.iphone-14 a,
+p {
+    text-decoration: none;
+    font-weight: 400;
+
+}
+
+.iphone-14 a {
+    margin: 10px;
+    color: rgb(86, 137, 231);
+    font-weight: 450;
+
+}
+
+.iphone-14 a:hover {
+    text-decoration: underline;
+
+}
+
+/* giv-wow-bx styling */
+.giv-wow-bx {
+    height: 600px;
+    width: 100%;
+    background-image: url("./images/give-wow.jpg");
+    background-position: center;
+    text-align: center;
+    padding-top: 27%;
+    box-sizing: border-box;
+
+}
+
+.give-wow-txt {
+    color: #f5f5f7;
+    font-size: 50px;
+    font-weight: 640;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.text {
+    color: #f5f5f7;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px 0px 15px 0px;
+    line-height: 28px;
+}
+
+.giv-wow-bx a {
+    color: rgb(86, 137, 231);
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.giv-wow-bx a:hover {
+    text-decoration: underline;
+
+}
+
+/* CArd Styling */
+
+.card {
+    width: 100%;
+    height: 600px;
+    background-image: url("./images/card.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    padding-top: 3%;
+    text-align: center;
+}
+
+.card img {
+    margin: 0px auto 0px auto;
+}
+
+.card-text {
+    color: #f5f5f7;
+    font-size: 27px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 32px;
+}
+
+.only {
+    color: #f5f5f7;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 32px;
+}
+
+.card>.anchors>a {
+    color: rgb(86, 137, 231);
+    font-size: 22px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0px auto 0px auto;
+
+}
+
+.anchors {
+    width: 100%;
+    margin: 0px auto auto 0px;
+    text-align: center;
+    justify-content: start;
+}
+
+.linkes:hover {
+    text-decoration: underline;
+
+}
+
+
+/* 1st Double divs styling */
+.parant-div {
+    display: flex;
+    flex-direction: row;
+    height: 580px;
+    width: 100%;
+    background-color: #f5f5f7;
+    box-sizing: border-box;
+    text-align: center;
+    background-color: white;
+}
+
+.iphone-14-pro {
+    margin: 0px 7.5px 0px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500;
+    background-image: url("./images/iphone14-pro.jpg");
+
+}
+
+/* Iphone 14 pro Box styling */
+.iphone-14-pro h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    color: #f5f5f7;
+}
+
+.iphone-14-pro p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f7;
+    margin-bottom: 12px;
+}
+
+.iphone-14-pro a {
+    color: rgb(86, 137, 231);
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 20px;
+}
+
+.iphone-14-pro a:hover {
+    text-decoration: underline;
+}
+
+/* iPade Box Styling */
+.ipad {
+    margin: 0px 15px 0px 7.5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500;
+    background-image: url("./images/ipad.jpg");
+
+}
+
+
+.ipad h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10%;
+    color: black;
+}
+
+.ipad p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.ipad a {
+    color: rgb(44, 98, 199);
+    font-size: 17px;
+    font-weight: 450;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 20px;
+
+}
+
+.ipad a:hover {
+    text-decoration: underline;
+}
+
+/* 2nd Double divs styling */
+
+.airpods {
+    margin: 0px 7.5px 0px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500;
+    background-image: url("./images/airpods.jpg");
+
+}
+
+/* airpods Box styling */
+
+.airpods img {
+    margin-top: 10%;
+}
+
+.airpods h1 {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+.airpods p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-bottom: 7px;
+}
+
+.airpods a {
+    color: rgb(86, 137, 231);
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 20px;
+}
+
+.airpods a:hover {
+    text-decoration: underline;
+}
+
+/* watch Box Styling */
+.watch {
+    margin: 0px 15px 0px 7.5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500;
+    background-image: url("./images/watch.jpg");
+    background-position: center;
+
+}
+
+.watch img {
+    margin-top: 10%;
+}
+
+.watch p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+    margin-bottom: 12px;
+}
+
+.watch a {
+    color: rgb(44, 98, 199);
+    font-size: 17px;
+    font-weight: 450;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 20px;
+
+}
+
+.watch a:hover {
+    text-decoration: underline;
+}
+
+/* 3rd Double divs styling */
+
+.watch-series {
+    margin: 0px 7.5px 0px 15px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500;
+    background-image: url("./images/watch-series.jpg");
+
+}
+
+/* watch-series Box styling */
+
+.watch-series img {
+    margin-top: 10%;
+}
+
+.watch-series p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f7;
+    margin-bottom: 12px;
+}
+
+.watch-series a {
+    color: rgb(86, 137, 231);
+    font-size: 17px;
+    font-weight: 400;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 20px;
+}
+
+.watch-series a:hover {
+    text-decoration: underline;
+}
+
+/* iPade-pro Styling */
+.ipad-pro {
+    margin: 0px 15px 0px 7.5px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 50%;
+    height: 500;
+    background-image: url("./images/ipad-pro.jpg");
+    background-position: center;
+
+}
+
+.ipad-pro h1 {
+    margin-top: 10%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f7;
+}
+
+.ipad-pro div p {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #f5f5f7;
+    margin-bottom: 12px;
+}
+
+.ipad-pro a {
+    color: rgb(44, 98, 199);
+    font-size: 17px;
+    font-weight: 450;
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: auto 20px;
+
+}
+
+.ipad-pro a:hover {
+    text-decoration: underline;
+}
+
+/* Slider Styling */
+
+.slider {
+    background-color: #f5f5f7;
+    height: 600px;
+    width: 100%;
+
+}
+
+.carousel-item {
+    transition: transform 2s ease, opacity .5s ease-out !important;
+}
+
+.carousel-inner {
+    width: 90% !important;
+    height: 500px !important;
+    justify-content: center !important;
+    margin: auto;
+}
+
+/* Last Div Styling */
+
+.last-div {
+    height: 850px;
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 200px 20px 200px;
+
+}
+
+.first-para {
+    color: rgb(107, 107, 107);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 13px;
+
+}
+
+.line {
+    width: 100%;
+    height: 1px;
+    background-color: #f1f1f1;
+    margin-top: 30px;
+}
+
+/* grid-div Styling */
+.grid-div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.grid-div div h5 {
+    color: rgb(83, 83, 83);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.grid-div div p {
+    color: rgb(109, 107, 107);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+
+.grid-div div p:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(83, 83, 83);
+}
+
+/* end-div styling */
+.end-div {
+
+    width: 100%;
+    background-color: #f1f1f1;
+    padding: 20px 200px 20px 200px;
+    text-align: start;
+}
+
+.end-div a {
+    color: rgb(109, 107, 107);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.end-div a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(83, 83, 83);
+}
+
+.dusra-para {
+    display: flex;
+    flex-direction: row;
+}
+
+.pahla-para {
+    margin: 0px 0px 5px 0px;
+}
+
+.pahla-para a {
+    color: rgb(97, 97, 240);
+}
+
+.pahla-para a:hover {
+    text-decoration: underline;
+    text-decoration-color: rgb(97, 97, 240);
+}
+
+/* Vertical line styling */
+.vl {
+    border-left: 1px solid rgb(109, 107, 107);
+    height: 15px;
+    margin: auto 5px;
+
+}
