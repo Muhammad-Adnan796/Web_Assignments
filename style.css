@@ -1,0 +1,329 @@
+/* Properties no 80 : Grid */
+
+/* 
+--> Values of Grid
+1) grid-template-rows,
+2) grid-template-columns,
+3) grid-template-areas,
+4) grid-template,
+5) rows-gap,
+6) column-gap,
+8) justify-items,
+9) align-items
+10) justify-content,
+11) align-content,
+12) grid-auto-rows,
+13) grid-auto-columns,
+14) grid-auto-flow,
+15) grid-row-start,
+16) grid-row-end,
+17) grid-row,
+18) grid-column-start,
+19) grid-column-end,
+20) grid-column,
+21) grid-area,
+22) justify-self,
+23) align-self,
+24) order,
+
+
+Usage
+*/
+
+
+/* Properties no 81 : Grid Creating Properties */
+
+/* 
+--> Values of Grid Creating Properties
+2) grid-template-columns,
+1) grid-template-rows,
+
+Usage
+*/
+
+
+.grid-creating-property {
+    background: gray;
+    width: 700px;
+    margin: 70px 0 0 100px;
+
+    display: grid;
+    /* grid-template-columns: 200px 200px ; */
+    grid-template-columns: repeat(3, 200px);
+    /* Main Properties */
+    /* grid-template-rows: 150px 150px 150px ; */
+    grid-template-rows: repeat(3, 150px);
+    /* Main Properties */
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+.items1 {
+    background: orangered;
+
+}
+
+.items2 {
+    background: yellowgreen;
+}
+
+.items3 {
+    background: slateblue;
+}
+
+.items4 {
+    background: hotpink;
+}
+
+.items5 {
+    background: royalblue;
+}
+
+.items6 {
+    background: goldenrod;
+}
+
+.items {
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 20px 10px 0 20px;
+}
+
+
+/* Properties no 82 : Grid Gap */
+
+/* 
+--> Values of Grid Gap
+2) columns-gap,
+1) rows-gap,
+
+Usage
+*/
+
+.grid-gap {
+    background: gray;
+    width: 700px;
+    margin: 70px 0 0 100px;
+
+    display: grid;
+    /* grid-template-columns: 200px 200px ; */
+    grid-template-columns: repeat(3, 200px);
+    /* grid-template-rows: 150px 150px 150px ; */
+    grid-template-rows: repeat(3, 150px);
+    row-gap: 30px;
+    /* Main Properties */
+    column-gap: 20px;
+    /* Main Properties */
+
+}
+
+
+/* Properties no 83 : Grid Items Positioning */
+
+/* 
+Usage
+*/
+
+
+.grid-items-positioning {
+    background: gray;
+    width: 700px;
+    margin: 70px 0 0 100px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 150px);
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+
+.items-positioning1 {
+    background: orangered;
+    grid-row-start: 2;      /* Main Properties */
+    grid-row-end: 3;      /* Main Properties */
+    grid-column-start: 2;   /* Main Properties */
+    grid-column-end: 3;      /* Main Properties */
+
+}
+
+.items-positioning2 {
+    background: yellowgreen;
+}
+
+.items-positioning3 {
+    background: slateblue;
+}
+
+.items-positioning4 {
+    background: hotpink;
+}
+
+.items-positioning5 {
+    background: royalblue;
+}
+
+.items-positioning6 {
+    background: goldenrod;
+}
+
+.items {
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 20px 10px 0 20px;
+}
+
+
+
+/* Properties no 84 : Spanning Grid Items */
+
+/* 
+Usage
+*/
+
+
+
+
+.spanning-grid-items {
+    background: gray;
+    width: 700px;
+    margin: 70px 0 0 100px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 200px);
+    grid-template-rows: repeat(3, 150px);
+    row-gap: 30px;
+    column-gap: 20px;
+
+}
+
+
+.items-spanning1 {
+    background: orangered;
+    grid-row-start: 1;
+    grid-row-end: 2;          /* Main Properties */
+    grid-column-start: 1;
+    grid-column-end: -1;        /* Main Properties */
+
+}
+
+.items-spanning2 {
+    background: yellowgreen;
+}
+
+.items-spanning3 {
+    background: slateblue;
+}
+
+.items-spanning4 {
+    background: hotpink;
+}
+
+.items-spanning5 {
+    background: royalblue;
+}
+
+.items-spanning6 {
+    background: goldenrod;
+}
+
+.items {
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 20px 10px 0 20px;
+}
+
+/* Properties no 85 : Naming grid Lines */
+
+/* 
+Its not much necessary
+*/
+
+
+/* Properties no 86 : Naming grid area */
+
+/* 
+Its not much necessary
+*/
+
+
+/* Properties no 87 : Grid MinMax Function */
+
+/* 
+--> Value of Grid MinMax Function
+
+1) Max Content,
+2) Min Content,
+3) Minmax(),
+
+
+Usage
+*/
+
+
+
+.grid-minmax {
+    background: gray;
+    width: 700px;
+    margin: 70px 0 0 100px;
+
+    display: grid;
+    grid-template-columns: max-content 200px min-content ;
+    grid-template-rows: repeat(3, MinMax(150px, min-content) );
+    row-gap: 10px;
+    column-gap: 10px;
+
+}
+
+
+.items-minmax1 {
+    background: orangered;
+           
+
+}
+
+.items-minmax2 {
+    background: yellowgreen;
+}
+
+.items-minmax3 {
+    background: slateblue;
+}
+
+.items-minmax4 {
+    background: hotpink;
+}
+
+.items-minmax5 {
+    background: royalblue;
+}
+
+.items-minmax6 {
+    background: goldenrod;
+}
+
+.items {
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 50px;
+    margin: 20px 10px 0 20px;
+}
+
+
+/* Properties no 88 : Implicit & Explicit Grid */
+
+/* 
+--> Value of Implicit & Explicit Grid
+
+1) Max Content,
+2) Min Content,
+3) Minmax(),
+
+
+Usage
+*/
