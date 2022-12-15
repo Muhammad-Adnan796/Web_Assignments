@@ -1,0 +1,385 @@
+
+
+/* LOWER PICS DIV */
+
+
+
+
+/* START MAIN-END DIV */
+.main-end {
+    height: 980px;
+    width: 900px;
+    background-color: white;
+    padding: 4em 1em 1em 0px;
+    margin: 0px 0px 0px 3%;
+    box-sizing: border-box;
+    border-radius: 5px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  
+  }
+  
+  /* END MAIN-CENTER DIV  */
+  
+  
+  /* START PIC-1-DIV DIV */
+  
+  .pic-1-end {
+    overflow: hidden;
+    width: 31%;
+    height: 350px;
+    background-color: #ec6a68;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/bottom-div-pics/1-pic.gif");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 50%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 15px 0px 0px 2.4%;
+    box-sizing: border-box;
+  }
+  
+  .pic-1-end h5 {
+    margin: 0px 5% 3% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-1-end p {
+    margin: 0px 5% 9% 5%;
+    color: rgb(36, 36, 36);
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  /* END PIC-1-DIV DIV  */
+  
+  
+  /* START PIC-2-DIV DIV */
+  
+  .pic-2-end {
+    overflow: hidden;
+    width: 31%;
+    height: 400px;
+    background-color: #3f3e3e;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/bottom-div-pics/2-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 43%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 15px 0px 0px 2%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 6%;
+  }
+  
+  .pic-2-end h5 {
+    margin: 0px 5% 8% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-2-end h5 span {
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-2-end p {
+    margin: 0px 5% 10% 5%;
+    color: rgb(214, 212, 212);
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  /* END PIC-2-DIV DIV  */
+  
+  
+  /* START PIC-3-DIV DIV */
+  
+  .pic-3-end {
+    overflow: hidden;
+    width: 31%;
+    height: 400px;
+    background-color: #3faad4;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/bottom-div-pics/3-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 43%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 15px 0px 0px 2%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 2.5%;
+  }
+  
+  .pic-3-end h5 {
+    margin: 0px 5% 1% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-3-end h5 span {
+    font-weight: 500;
+    font-size: 20px;
+    font-style: italic;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-3-end p {
+    margin: 0px 5% 9% 5%;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  /* END PIC-3-DIV DIV  */
+  
+  /* START PIC-4-DIV DIV */
+  
+  .pic-4-end {
+    overflow: hidden;
+    width: 31%;
+    height: 350px;
+    background-color: #8d6ac5;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/bottom-div-pics/4-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 43%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 0px 0px 0px 2.5%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 4%;
+  }
+  
+  .pic-4-end h5 {
+    margin: 0px 5% 2% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-4-end p span {
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  .pic-4-end p {
+    margin: 0px 5% 10% 5%;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  /* END PIC-3-DIV DIV  */
+  
+  .this-week {
+    height: 70px;
+    width: 31%;
+    float: left;
+    color: rgb(141, 140, 140);
+    position: relative;
+    bottom: 6%;
+    margin: 2% 2% 0px 2%;
+  
+  }
+  
+  .this-week p {
+    font-size: 28px;
+  }
+  
+  
+  /* START PIC-5-DIV DIV */
+  
+  .pic-5-end {
+    overflow: hidden;
+    width: 31%;
+    height: 350px;
+    background-color: #65b371;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/bottom-div-pics/5-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 43%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 0px 0px 0px 0px;
+    box-sizing: border-box;
+    /* position: relative;
+   bottom: 4%; */
+  }
+  
+  .pic-5-end h5 {
+    margin: 0px 5% 5% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-5-end h5 span {
+    font-weight: 500;
+    color: white;
+    font-size: 20px;
+    font-style: italic;
+  }
+  
+  .pic-5-end p {
+    margin: 0px 5% 10% 5%;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  /* END PIC-5-DIV DIV  */
+  
+  /* START PIC-6-DIV DIV */
+  
+  .pic-6-end {
+    overflow: hidden;
+    width: 31%;
+    height: 350px;
+    background-color: #c5af89;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/bottom-div-pics/6-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 43%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 0px 0px 0px 2.5%;
+    box-sizing: border-box;
+    position: relative;
+    bottom: 32%;
+    left: 33%;
+  }
+  
+  .pic-6-end h5 {
+    margin: 0px 5% 2% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-6-end p span {
+    font-weight: 500;
+    color: rgb(54, 54, 54);
+    font-size: 15px;
+    font-style: italic;
+  }
+  
+  .pic-6-end p {
+    margin: 0px 5% 10% 5%;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    line-height: 20px;
+  }
+  
+  
+  /* END PIC-6-DIV DIV  */
+  
+  
+  /* START PIC-7-DIV DIV */
+  
+  .pic-7-end {
+  
+    width: 31%;
+    height: 100px;
+    border-radius: 8px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 15px;
+    float: left;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    margin: 1.5% 0px 0px 2%;
+    box-sizing: border-box;
+    position: relative;
+    left: 33%;
+  }
+  
+  .pic-7-end h5 {
+    margin: 0px;
+    height: 50%;
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    font-weight: 500;
+    font-size: 20px;
+    background-color: #f17b45;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+  
+  }
+  
+  .pic-7-end p {
+    margin: 0px;
+    height: 50%;
+    width: 100%;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 35px;
+    color: rgb(54, 54, 54);
+    font-weight: 500;
+    line-height: 15px;
+    background-color: #51b4db;
+    display: flex;
+    align-items: center;
+    padding-left: 6%;
+  }
+  
+  
+  /* END PIC-7-DIV DIV  */
+  
+  
+  /* END MAIN-END DIV */
+  
+  

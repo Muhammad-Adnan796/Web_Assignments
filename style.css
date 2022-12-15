@@ -1,0 +1,142 @@
+@import "./hover.css";
+@import "./second-navbar.css";
+@import "./first-navbar.css";
+@import "./lower-pics.css";
+@import "./uppar-pics.css";
+@import "./side-btn.css";
+@import "./footer.css";
+@import "./slider.css";
+
+
+/* START BODY DIV */
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* END  BODY DIV */
+
+/* START MAIN DIV */
+.main-div {
+  width: 100%;
+  height: 100%;
+}
+
+/* END MAIN DIV */
+
+
+  
+:root {
+  --fontsize: 14px;
+}
+
+:root {
+  --fontclr: #424141,
+}
+
+/* START BACKGROUND DIV */
+/* END BACKGROUND DIV */
+
+.background-div {
+  
+  width: 100%;
+  background-color: white;
+  background-image: url("./images/background.png");
+  background-position: center;
+  background-repeat: repeat;
+  background-size: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+
+}
+
+/* START BLACK-LEFT DIV  */
+.black-left {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+  width: 2.7%;
+}
+
+/*  END BLACK-LEFT DIV  */
+
+/* START BLACK-RIGHT DIV  */
+.black-right {
+  background-color: rgb(0, 0, 0);
+  opacity: 0.7;
+ 
+  width: 2.7%;
+}
+
+/*  END BLACK-RIGHT DIV  */
+
+/* END BLACK-LEFT DIV  */
+
+/* START BLACK-RIGHT DIV  */
+
+.main-div {
+
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+
+}
+/* EXPLORE */
+.explore {
+  background-color: rgb(5, 5, 5);
+  height: 48px;
+  width: 250px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 6px;
+  position: relative;
+  left: 26%;
+  
+}
+
+.explore h5 {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* START MAIN-END DIV */
+
+ /* START DOWN-SHADOW DIV  */
+
+ .down-shadow{
+  height: 30px;
+  width: 100%;
+  background-color: black;
+  opacity: 0.7;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  
+ }
+.left-div{
+  height: 100%;
+  width: 15%;
+  background-color: black;
+  opacity: 1;
+  position: relative;
+  bottom: 20%;
+  border-top-right-radius: 15px;
+}
+.right-div{
+  height: 100%;
+  width: 15%;
+  background-color: black;
+  opacity: 1;
+  position: relative;
+  bottom: 13px;
+  border-top-left-radius: 15px;
+}
+ /* START DOWN-SHADOW DIV  */

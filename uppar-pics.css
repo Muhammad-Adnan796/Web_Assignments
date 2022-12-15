@@ -1,0 +1,226 @@
+
+/* UPPAR PICS DIV */
+
+/* START MAIN-CENTER DIV */
+.main-center {
+    height: 830px;
+    width: 893px;
+    background-color: white;
+    padding: 2em 1em 1em 1em;
+    margin: 0px 0px 0px 3%;
+    box-sizing: border-box;
+    border-radius: 5px;
+  
+  }
+  
+  /* END MAIN-CENTER DIV  */
+  
+  /* START PIC-1-DIV DIV */
+  .pic-1-div {
+    overflow: hidden;
+    width: 66%;
+    height: 470px;
+    background-color: #855ac9;
+    color: white;
+    border-radius: 8px;
+    float: left;
+  }
+  
+  .pic-1-div h5 {
+    margin: 3% 3% 1% 3%;
+    font-size: 22px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-1-div h5 span {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .pic-1-div p span {
+    font-size: 15px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  .pic-1-div p {
+    margin: 1% 3% 2% 3%;
+    color: rgb(36, 36, 36);
+    font-weight: 500;
+  }
+  
+  
+  /* END PIC-1-DIV DIV  */
+  
+  
+  /* START PIC-2-DIV DIV */
+  .pic-2-div {
+    overflow: hidden;
+    width: 31%;
+    height: 150px;
+    background-color: #30A7D7;
+    color: white;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/uppar-div-pics/2-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+    margin: 0px 0px 0px 2%;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+  
+  }
+  
+  .pic-2-div h5 {
+    margin: 3% 3% 3% 3%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-2-div h5 span {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  
+  /* END PIC-2-DIV DIV  */
+  
+  
+  /* START PIC-3-DIV DIV */
+  .pic-3-div {
+    overflow: hidden;
+    width: 31%;
+    height: 300px;
+    background-color: #4dad5b;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/uppar-div-pics/3-pic.gif");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 65%;
+    margin: 0px 0px 0px 2%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 20px 0px 0px 2%;
+    box-sizing: border-box;
+  }
+  
+  .pic-3-div h5 {
+    margin: 3% 3% 4% 3%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /* END PIC-3-DIV DIV  */
+  
+  /* START PIC-4-DIV DIV */
+  
+  .pic-4-div {
+    overflow: hidden;
+    width: 32%;
+    height: 300px;
+    background-color: #e6bc2f;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/uppar-div-pics/4-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 65%;
+    margin: 0px 0px 0px 2%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0px 0px 0px;
+    box-sizing: border-box;
+  }
+  
+  .pic-4-div h5 {
+    margin: 3% 3% 4% 3%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  
+  
+  /* END PIC-4-DIV DIV  */
+  
+  /* START PIC-5-DIV DIV */
+  
+  .pic-5-div {
+    overflow: hidden;
+    width: 32%;
+    height: 300px;
+    background-color: #1b53ba;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/uppar-div-pics/5-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 65%;
+    margin: 0px 0px 0px 2%;
+    color: white;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0px 0px 1em;
+    box-sizing: border-box;
+  }
+  
+  .pic-5-div h5 {
+    margin: 3% 3% 4% 3%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  .pic-5-div h5 span {
+    font-size: 22px;
+    font-style: italic;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  
+  }
+  
+  
+  /* END PIC-5-DIV DIV  */
+  
+  /* START PIC-6-DIV DIV */
+  
+  .pic-6-div {
+    overflow: hidden;
+    width: 31%;
+    height: 300px;
+    background-color: #A4A4A4;
+    border-radius: 8px;
+    float: left;
+    background-image: url("./images/uppar-div-pics/6-pic.jpg");
+    background-repeat: no-repeat;
+    background-position: top;
+    background-size: 100% 65%;
+    margin: 0px 0px 0px 2%;
+    display: flex;
+    align-items: flex-end;
+    margin: 15px 0px 0px 2.4%;
+    box-sizing: border-box;
+  }
+  
+  .pic-6-div h5 {
+    margin: 0px 3% 10% 5%;
+    font-weight: 500;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(56, 56, 56);
+  }
+  
+  
+  /* END PIC-6-DIV DIV  */
+  

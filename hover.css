@@ -1,0 +1,280 @@
+/*  HOVER CLASS */
+
+
+
+
+/* START FIRST NAVBAR DIV */
+
+/* START LOGO - 1 */
+#img-div,
+.logo-2,
+.logo-4,
+.logo-5 :hover {
+    cursor: pointer;
+}
+
+/* END LOGO - 1 */
+/* START LOGO - 2  & 3 */
+
+/* The animation code */
+@keyframes example {
+    0% {
+        position: relative;
+        top: 5px;
+    }
+
+    100% {
+        position: relative;
+    }
+}
+
+.hovered:hover {
+    animation-name: example;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+/* The animation code */
+@keyframes example2 {
+    0% {
+        position: relative;
+        top: 3px;
+    }
+
+    100% {
+        position: relative;
+    }
+}
+
+.logo-2 img:hover {
+    animation-name: example2;
+    animation-duration: 0.6s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+/* The animation code */
+@keyframes example3 {
+    0% {
+        position: relative;
+        top: 1px;
+    }
+
+    100% {
+        position: relative;
+    }
+}
+
+.pic-2-end:hover,
+.pic-3-end:hover,
+.pic-4-end:hover,
+.pic-6-end:hover {
+    animation-name: example3;
+    animation-duration: 0.9s;
+    animation-iteration-count: 1;
+    animation-direction: alternate;
+    cursor: pointer;
+}
+
+/* END LOGO - 2 & 3 */
+/* START LOGO - 4 & 5 & 6 */
+.logo-4 {
+    margin: 0.5%;
+    box-shadow: -2px -2px 0.002px 0.2px rgb(180, 180, 180);
+}
+
+.logo-4:hover {
+    opacity: 0.3;
+}
+
+.logo-5 {
+    box-shadow: 0px 0px 0px 0px transparent;
+    border-left: 1px solid rgb(100, 100, 100);
+
+}
+
+/* END LOGO - 4 & 5 & 6  */
+
+/* END FIRST NAVBAR DIV */
+
+/* START SECOND NAVBAR DIV */
+/* START HOME DIV 1 */
+
+.home:hover {
+    cursor: pointer;
+}
+
+/* START HOME DIV 1 */
+
+/* START POKEDEX DIV 2 */
+.pokedex:hover {
+    background-color: #E3350D;
+    color: white;
+    cursor: pointer;
+}
+
+/* END POKEDEX DIV 2 * /
+
+  /* START GAMES DIV 3 */
+.games:hover {
+    background-color: #ee6b2f;
+    color: white;
+    cursor: pointer;
+}
+
+/* END GAMES DIV 4 */
+
+/* START CARD DIV 3 */
+.card:hover {
+    background-color: #e6bc2f;
+    color: white;
+    cursor: pointer;
+}
+
+/* END CARD DIV 4 */
+
+/* START TV DIV 5 */
+.tv:hover {
+    background-color: #4dad5b;
+    color: white;
+    cursor: pointer;
+}
+
+/* END TV DIV 5 */
+
+/* START EVENTS DIV 6 */
+.events:hover {
+    background-color: #30a7d7;
+    color: white;
+    cursor: pointer;
+}
+
+/* END EVENTS DIV 6 */
+/* START NEWS DIV 7 */
+.news:hover {
+    background-color: #1b53ba;
+    color: white;
+    cursor: pointer;
+}
+
+/* END NEWS f DIV 7 */
+
+
+/* END SECOND NAVBAR DIV */
+
+
+
+.pic-1-end:hover {
+    background-color: #f83f3c;
+    cursor: pointer;
+}
+
+.pic-2-end:hover {
+    background-color: #313131;
+    cursor: pointer;
+}
+
+.pic-3-end:hover {
+    background-color: #30a7d7;
+    cursor: pointer;
+}
+
+.pic-4-end:hover {
+    background-color: #855ac9;
+    cursor: pointer;
+}
+
+.pic-5-end:hover {
+    background-color: #4dad5b;
+    cursor: pointer;
+}
+
+.pic-6-end:hover {
+    background-color: #C7AA79;
+    cursor: pointer;
+}
+
+.pic-7-end h5:hover {
+    background-color: #ee6b2f;
+    cursor: pointer;
+}
+
+.pic-7-end p:hover {
+    background-color: #30a7d7;
+    cursor: pointer;
+}
+
+
+
+/* FOOOTER 1*/
+
+.footer-1 ul {
+    list-style: none;
+    color: white;
+    font-weight: 600;
+}
+
+.footer-1 ul li:hover {
+    color: white;
+}
+
+/* FOOOTER 2*/
+
+.fa-square-facebook:hover {
+    color: rgba(76, 76, 155, 0.7);
+}
+
+.fa-square-youtube:hover {
+    color: red;
+    opacity: 0.7;
+}
+
+.fa-square-twitter:hover {
+    color: rgba(135, 217, 250, 0.7);
+}
+
+.fa-square-instagram:hover {
+    color: #f55936;
+    opacity: 0.7;
+}
+
+.fa-square-pinterest:hover {
+    color: red;
+    opacity: 0.7;
+}
+
+
+
+
+.side-icons {
+    height: 165px;
+    width: 60px;
+    border: 2px solid rgba(0, 0, 0, 0.78);
+    border-left: none;
+    background-color: rgb(0, 61, 0);
+    margin: 25px auto auto 0px;
+    position: fixed;
+    left: 2.6%;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    overflow: hidden;
+
+}
+
+/* LOGIN */
+.login:hover {
+    background-color: #025710;
+    opacity: 1;
+}
+
+/* SEARCH */
+.search:hover{
+    background-color: #30a7d7;
+    opacity: 1;
+}
+
+
+/* END SIDE ICONS */
