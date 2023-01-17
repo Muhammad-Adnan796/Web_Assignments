@@ -1,7 +1,7 @@
 
-//            Chapter # 1 (Assignment)
+//            Chapter # 17 to 20 (Assignment)
 document.write("<br><br><br>");
-document.write("<b>Chapter # 1 (Assignment)</b> <br><br><br><br>");
+document.write("<b>Chapter # 17 to 20 (Assignment)</b> <br><br><br><br>");
 
 // 1.
 //  Declare and initialize an empty multidimensional array.
