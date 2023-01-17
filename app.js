@@ -40,7 +40,7 @@ document.write(`Round off value: ${roundedOffN}<br>`);
 let floorValueN = Math.floor(negativeInteger);
 document.write(`Floor value: ${floorValueN}<br>`);
 let cielValueN = Math.ceil(negativeInteger);
-document.write(`Ceil value: ${cielValueN}<br>`);
+document.write(`Ceil value: ${cielValueN}<br><br><br>`);
 
 
 // 3. 
@@ -67,7 +67,7 @@ if(absoluteInteger < 0  ){
 document.write("Answer -4 <br><br>");
 
 let randomNum = parseInt((Math.random() * 6) + 1);
-document.write(`Random dice value: ${randomNum}`);
+document.write(`Random dice value: ${randomNum} <br><br><br>`);
 
 
 // 5. 
