@@ -133,19 +133,20 @@ for(var i=1; i <= 20; i++){
 // Anwer-7
 document.write("Answer -7 <br><br> ");
 
-/* var items = ["cake", "apple pie", "cookie", "chips", "patties"];
+var items = ["cake", "apple pie", "cookie", "chips", "patties"];
 var userItems = prompt("Welcome to ABC Bakery. What do you want to order sir/ma'am?");
 for(var i=0; i<= items.length; i++){
     if(items[i] == userItems){
-        alert(`${userItems} is <b>available</b> at index ${[i]} in our bakery`);
-        document.write(`${userItems} is available at index ${[i]} in our bakery <br>`);
-        break;
-    }else{
-        alert(`We are sorry.${userItems} is <b>not available</b> in our bakery `);
-        document.write(`We are sorry.${userItems} is <b>not available</b> in our bakery <br>`);
+        alert(`${userItems} is available at index ${[i]} in our bakery`);
+        document.write(`${userItems} is <b>available</b> at index ${[i]} in our bakery <br>`);
         break;
     }
-} */
+}
+if(items[i] !== userItems){
+    alert(`We are sorry.${userItems} is not available in our bakery `);
+    document.write(`We are sorry.${userItems} is <b>not available</b> in our bakery <br>`);
+   
+}
 
 // 8. Write a program to identify the largest number in the
 // given array.
