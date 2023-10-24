@@ -1,0 +1,132 @@
+#mobile_look {
+    color: rgb(84, 84, 206);
+}
+
+#mobile_pics {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    height: 250px;
+    margin: auto;
+
+}
+
+.div_pics {
+    border: 2px solid rgb(84, 84, 206);
+    box-sizing: border-box;
+    height: 100%;
+    width: 220px;
+    margin: auto;
+    margin-bottom: 2px;
+}
+
+.pic-1 {
+    background-image: url("./images/iphone-13.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.pic-2 {
+    background-image: url("./images/Realme-10.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.pic-3 {
+    background-image: url("./images/Samsung-Galaxy-A14.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.pic-4 {
+    background-image: url("./images/vivo-2022-modal.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.pic-5 {
+    background-image: url("./images/vivo-v25e.webp");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+.pic-6 {
+    background-image: url("./images/vivo-y51.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+}
+
+#mobile_pics div {
+    color: rgb(79, 79, 168);
+    display: flex;
+    align-items: flex-end;
+}
+
+/* todos */
+#todos {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#name,
+#numb {
+    width: 300px;
+    height: 20px;
+    border-radius: 5px;
+    color: aqua;
+    border: 2px solid rgb(110, 110, 110);
+    margin: 20px;
+    font-size: 15px;
+}
+
+/* save */
+#save {
+    width: 80px;
+    height: 25px;
+    background-color: rgb(193, 161, 223);
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* todos_list */
+
+#todos_list {
+    display: flex;
+    justify-content: center;
+}
+
+.tbl_row {
+    display: flex;
+    justify-content: space-around;
+    width: 500px;
+    background-color: rgb(195, 165, 223);
+    margin: 5px;
+    height: 25px;
+    align-items: center;
+    border-radius: 5px;
+}
+
+/* .tbl_row th ,td */
+.tbl_row td button {
+    background-color: brown;
+    border-radius: 5px;
+    border: 1px solid grey;
+    height: 25px;
+    color: white;
+
+}
+
+/* tbl_head */
+.tbl_head {
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
