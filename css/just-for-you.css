@@ -1,0 +1,240 @@
+/* just-for-you */
+
+/* just-for-you-heading */
+.just-for-you-heading {
+    font-size: 22px;
+    color: rgb(68, 68, 68);
+    margin: 0px 0px 5px 6%;
+}
+
+/* just-for-you-pics */
+.just-for-you-pics {
+    width: 88%;
+    margin: auto;
+    background-color: var(#F5F5F5);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+/* just-for-you-Card */
+.just-for-you-Card {
+    width: 189px;
+    height: 325px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+    margin: 5px 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: flex-start;
+}
+
+
+
+/* just-for-you-Card */
+.just-for-you-Card p {
+    color: var(--blackNavText);
+    font-size: 13px;
+    font-weight: 600;
+    margin: 0px 10px 0px 10px;
+}
+/* price */
+.just-for-you-Card .price {
+    display: flex;
+}
+/* just-for-you-cards h5 */
+.just-for-you-Card h5{
+    color: var(--orangeClr);
+    margin: 0px 10px 5px 10px;
+}
+/* .just-for-you-Card a */
+.just-for-you-Card a {
+    color: rgb(161, 160, 160);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0px 3px 10px 10px;
+    text-decoration: line-through;
+
+}
+
+/* stars */
+.stars{
+    display: flex;
+    font-size: 11px ;
+    color: #faca51 ;
+    margin: 0px 3px 10px 10px !important;
+}
+/* stars span */
+.stars span {
+    font-size: 11 !important;
+    color: rgb(175, 174, 174) !important ;
+  position: relative;
+  bottom: 3px;
+}
+
+
+/* just-for-you-Card span */
+.just-for-you-Card span {
+    color: black;
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 18px;
+    margin: 0px;
+    text-decoration: none;
+}
+
+/* just-for-you-Card hover*/
+.just-for-you-Card:hover {
+    box-shadow: 2px 1px 7px -1px rgb(156, 156, 156);
+}
+
+
+
+.just-for-you-pic-1 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+   
+}
+
+.just-for-you-pic-2 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-2.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-3 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-3.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-4 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-4.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-5 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-5.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-6 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-6.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-7 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-8.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-8 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-9.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-9 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-10.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-10 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-10.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-11 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-11.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-12 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-12.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-13 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-13.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-14 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-14.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-15 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-15.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-16 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-16.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-17 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-17.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-18 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-18.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-19 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-19.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-20 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-20.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-21 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-21.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-22 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-22.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-23 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-23.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.just-for-you-pic-24 {
+    background-image: url("../images/just-for-you-cards/just-for-you-pic-24.webp");
+    background-repeat: no-repeat;
+    background-size: contain;
+}

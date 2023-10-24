@@ -1,0 +1,136 @@
+/* DARAZ MALL */
+
+
+.daraz-mall-heading{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px;
+    padding: 0px;
+}
+.daraz-mall-heading h5{
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    margin: 0px 0px 5px 6%;
+}
+.daraz-mall-heading h6{
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--orangeClr);
+    margin: 0px 6% 0px 0px;
+}
+
+/* daraz-mall-categories */
+
+.daraz-mall-categories{
+    width: 88%;
+    background-color: #F5F5F5;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* daraz-mall-card */
+.daraz-mall-card{
+    height: 270px;
+    width: 188px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+
+}
+
+/* daraz-mall-small-card */
+.daraz-mall-small-card{
+    border: 3px solid white;
+    height: 44px;
+    width: 44px;
+    background-color: #F5F5F5;
+    box-shadow: 0px 0px 5px -0px gray;
+    position: relative;
+    bottom: 25px;
+}
+/* Hover .daraz-mall-small-card */
+.daraz-mall-card:hover{
+    box-shadow: 2px 1px 7px -1px rgb(156, 156, 156);
+}
+.daraz-mall-card h5{
+    color: rgb(70, 69, 69);
+    font-size: 14px;
+    margin: 0px;
+    position: relative;
+    bottom: 15px;
+}
+.daraz-mall-card h6{
+    color: rgb(146, 145, 145);
+    font-size: 11px;
+    margin: 0px;
+    position: relative;
+    bottom: 10px;
+}
+/* daraz-small-cards-6 */
+.daraz-small-cards-1{
+    background-image: url("../images/darz-mall-cards/daraz-mall-small-cards/small-card-1.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    
+}
+.daraz-small-cards-2{
+    background-image: url("../images/darz-mall-cards/daraz-mall-small-cards/small-card-2.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-small-cards-3{
+    background-image: url("../images/darz-mall-cards/daraz-mall-small-cards/small-card-3.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-small-cards-4{
+    background-image: url("../images/darz-mall-cards/daraz-mall-small-cards/small-card-4.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-small-cards-5{
+    background-image: url("../images/darz-mall-cards/daraz-mall-small-cards/small-card-5.jpeg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-small-cards-6{
+    background-image: url("../images/darz-mall-cards/daraz-mall-small-cards/small-card-6.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+/* daraz-mall-pic-1 */
+.daraz-mall-pic-1{
+    background-image: url("../images/darz-mall-cards/daraz-mall-card-1.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-mall-pic-2{
+    background-image: url("../images/darz-mall-cards/daraz-mall-card-2.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-mall-pic-3{
+    background-image: url("../images/darz-mall-cards/daraz-mall-card-3.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-mall-pic-4{
+    background-image: url("../images/darz-mall-cards/daraz-mall-card-4.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-mall-pic-5{
+    background-image: url("../images/darz-mall-cards/daraz-mall-card-5.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+.daraz-mall-pic-6{
+    background-image: url("../images/darz-mall-cards/daraz-mall-card-6.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+

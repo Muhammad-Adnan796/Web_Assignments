@@ -1,0 +1,66 @@
+
+/* Nav Bar Css */
+
+
+
+
+
+:root{
+    --greyClr:rgb(235, 231, 231);
+    --orangeClr : #f85606;
+    --blackNavText: #212121;
+    --fontfamily: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif  ;
+    --fontsize: 11px;
+    --fontWeight: 400;
+}
+
+/* Navbar */
+
+#navbar{
+    width: 100%;
+    height: 25px;
+    background-color: var(--greyClr);
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.navbar-text{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    margin-left: 11%;
+    margin-top: 0.2%;
+    
+}
+
+
+#first{
+    font-weight: var(--fontWeight);
+    color: var(--orangeClr);
+    font-size: var(--fontsize);
+    font-family:  var(--fontfamily)  ;
+    text-decoration: none;
+    letter-spacing: 0.1px;
+}
+
+.navbar-text li a{
+    margin: auto 20px 0px 20px;
+    color: var(--blackNavText);
+    font-size: var(--fontsize);
+    font-family: var(--fontfamily);
+    font-weight: var(--fontWeight);
+    text-decoration: none;
+    letter-spacing: 0.1px;
+}
+
+
+/* Hover */
+
+.navbar-text li a:hover{
+    color: var(--orangeClr) !important;
+    text-decoration:underline !important;
+    text-decoration-color: var(--orangeClr) !important;
+   
+}

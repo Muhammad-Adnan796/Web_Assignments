@@ -1,0 +1,136 @@
+/* Categories */
+
+.categories-heading{
+    font-size: 20px;
+    color: rgb(68, 68, 68);
+    margin: 0px 0px 5px 6%;
+}
+
+/* categories-main */
+.categories-main{
+    width: 88%;
+    background-color: rgb(231, 229, 229);
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+/* categories-cards */
+.categories-cards{
+    height: 147.7px;
+    width: 147.5px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    margin: 1px 0px;
+}
+/* .categories-cards hover */
+.categories-cards:hover{
+    box-shadow: 2px 2px 7px -2px rgb(156, 156, 156);
+    z-index: 1;
+}
+/* categories-cards-pic-1 */
+.categories-cards-pic-1{
+    background-image: url("../images/categories-cards-pics/category-card-1.png");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-2{
+    background-image: url("../images/categories-cards-pics/category-card-3.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-3{
+    background-image: url("../images/categories-cards-pics/category-card-2.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-4{
+    background-image: url("../images/categories-cards-pics/category-card-4.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-5{
+    background-image: url("../images/categories-cards-pics/category-card-5.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-6{
+    background-image: url("../images/categories-cards-pics/category-card-6.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-7{
+    background-image: url("../images/categories-cards-pics/category-card-7.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-8{
+    background-image: url("../images/categories-cards-pics/category-card-8.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-9{
+    background-image: url("../images/categories-cards-pics/category-card-9.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-10{
+    background-image: url("../images/categories-cards-pics/category-card-10.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-11{
+    background-image: url("../images/categories-cards-pics/category-card-11.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-12{
+    background-image: url("../images/categories-cards-pics/category-card-12.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-13{
+    background-image: url("../images/categories-cards-pics/category-card-13.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-14{
+    background-image: url("../images/categories-cards-pics/category-card-14.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-15{
+    background-image: url("../images/categories-cards-pics/category-card-15.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+.categories-cards-pic-16{
+    background-image: url("../images/categories-cards-pics/category-card-16.jpg");
+    background-repeat: no-repeat;
+    background-position: 50% 25%;
+    background-size: 60% 60%;
+}
+
+/* categories-cards h5 */
+.categories-cards h5{
+    font-size: 14px;
+    margin: 15px;
+}

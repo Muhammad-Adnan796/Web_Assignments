@@ -1,0 +1,62 @@
+/*  PAYMENTS METHOD INFORMATION */
+.payment-methods{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+.payment,.daraz-international,.follow-us,.verified-by{
+    width: 290px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding: 0px 0.5%;
+    
+}
+/* payment-geading */
+.payment h1,.daraz-international h1,.follow-us h1,.verified-by h1{
+    font-size: 18px;
+    color: #333333;
+    margin-top: 5%;
+}
+/* debit-cards flags social-pics*/
+.debit-cards,.flags,.social-pics{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+    justify-content: start;
+    box-sizing: border-box;
+}
+
+/* debit-card-div */
+.debit-card-div{
+    height: 38px;
+    width: 55px;
+    background-color: #F5F5F5;
+    border-radius: 2px;
+    margin: 3% 5% 3% 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 1.5px 1px rgb(228, 226, 226);
+}
+/* .flags img */
+.flags img,.social-pics img{
+    margin: 3% 5% 3% 0px;
+}
+/* verified-by img */
+.verified-by img{
+    margin: 0px 5% 3% 0px;
+}
+
+/* cash-on-delivery text */
+.cash-on-delivery h2{
+    font-size: 9px;
+    color: #2e3d30;
+    font-weight: 800;
+    text-align: center;
+    margin: 0px;
+}

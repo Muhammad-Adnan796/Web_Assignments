@@ -1,0 +1,38 @@
+/* Categories */
+
+.categories{
+    display: flex;
+    height: 50px;
+    width: 90%;
+    margin: auto ;
+    margin-top: 1% !important;
+}
+
+.mart{
+    height: 40px;
+    width: 230px;
+    background-color: white;
+    display: flex;
+    box-sizing: border-box;
+    align-items: center;
+    border-radius: 20px;
+    margin: 0px 10px;
+    
+}
+
+.mart-pic{
+    margin: 5px;
+}
+.mart h5{
+    margin: 5px;
+    font-size: 17px;
+}
+
+
+/* Hover */
+
+.mart:hover { 
+   box-shadow: 10px 10px 20px -15px  black ;
+   color: green;
+  
+}

@@ -1,0 +1,182 @@
+/* FOOTER  */
+/* footer */
+.footer {
+    width: 100%;
+    height: 100%;
+    background-color: #2e2e54;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 0px 4%;
+
+}
+
+/* footer-1 */
+.footer-1 {
+    width: 297px;
+    height: 320px;
+    background-color: #2e2e54;
+    display: flex;
+    justify-content: start;
+    /* margin: 0px 1%; */
+}
+
+.footer-2 {
+    width: 297px;
+    height: 320px;
+    background-color: #2e2e54;
+    display: flex;
+    justify-content: start;
+}
+
+/*  footer-2 */
+.footer-3 {
+    width: 410px;
+    height: 320px;
+    background-color: #2e2e54;
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+    box-sizing: border-box;
+    padding-left: 2%;
+}
+
+/* customer-care */
+.customer-care {
+    list-style: none;
+    color: white;
+    font-size: 12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding-left: 15%;
+    box-sizing: border-box;
+
+}
+
+/* customer-care h4 */
+.customer-care h4 {
+    color: white;
+    font-size: 18px;
+
+}
+
+/* customer-care li */
+.customer-care li {
+    line-height: 16px;
+}
+
+/* customer-care li a */
+.customer-care li a {
+    color: white;
+    font-size: 12px;
+    text-decoration: none;
+    font-weight: 500;
+    letter-spacing: 0.5px;
+}
+
+
+/* customer-care li a :Hover */
+.customer-care li a:hover {
+    text-decoration: underline;
+    text-decoration-style: white;
+}
+
+/* q-r-Code */
+.q-r-Code {
+    display: flex;
+    width: 60%;
+    height: 35%;
+    margin: 19px 0px;
+
+}
+
+/* q-r-Code */
+.q-r-pic {
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+}
+
+/* daraz-footer-logo */
+.daraz-footer-logo {
+    display: flex;
+    flex-direction: column;
+    margin: 20px 0px 0px 20px;
+}
+
+/* daraz-footer-logo img */
+.daraz-footer-logo img {
+    width: 42px;
+    border-radius: 10px;
+}
+
+/* daraz-footer-logo p */
+.daraz-footer-logo p {
+    color: var(--orangeClr);
+    font-weight: 700;
+    font-size: 14px;
+    margin: 0px;
+    line-height: 20px;
+}
+
+/* daraz-footer-logo h6*/
+.daraz-footer-logo h6 {
+    color: white;
+    margin: 0px;
+    line-height: 15px;
+}
+
+/* google-logos */
+.google-logos {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 65%;
+    background-color: #2e2e54;
+
+}
+
+/* google-logos img */
+.google-logos img {
+    width: 120px;
+}
+
+/* google-logos img */
+.google-logos div {
+    height: 40px;
+    width: 120px;
+    border: 0.000001px solid rgb(187, 184, 184);
+    border-radius: 5px;
+    padding: 0px;
+    margin: 5px 6px 5px 0px;
+
+}
+
+.app-store {
+    background-image: url("../images/footer-images/app-store.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    margin-left: 0px !important;
+}
+
+.google-play {
+    background-image: url("../images/footer-images/google-play.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}
+
+.app-gallery {
+    background-image: url("../images/footer-images/appGallery.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+}

@@ -1,0 +1,76 @@
+/* 
+navbar 2 */
+
+
+.navbar-2 {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-daraz img {
+    height: 41px;
+    width: 135px;
+    margin-left: 50%;
+}
+
+.searchbar {
+    height: 60%;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    align-items: center;
+    border-radius: 3px;
+    box-sizing: border-box;
+    margin-left: 10%;
+}
+.input{
+    height: 100%;
+    width: 100%;
+    border: none;
+   
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    border: none;
+    border-radius: 5px;
+    background-color: #F5F5F5;
+    padding: 15px;
+}
+
+.search-icons{
+    height: 100%;
+    width: 7%;
+    background-color: var(--orangeClr);
+    border-radius: 3px;
+    font-size: 17px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* logo-shoping */
+
+.logo-shoping img{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+    background-color: white;
+    
+}
+
+/* dounload-now */
+
+.dounload-now img{
+    height: 45px;
+    margin-left: 60px;
+    
+}

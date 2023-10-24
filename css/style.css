@@ -1,0 +1,36 @@
+@import url("./navbar.css");
+@import url("./navbar-2.css");
+@import url("./slider.css");
+@import url("./big-categories.css");
+@import url("./flash-sale.css");
+@import url("./daraz-mall.css");
+@import url("./categories.css");
+@import url("./just-for-you.css");
+@import url("./load.css");
+@import url("./footer.css");
+@import url("./payment.css");
+@import url("./footer-text.css");
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #F5F5F5;
+}
+
+/* Variables */
+
+:root{
+    --orangeClr : #f85606;
+    --blackNavText: #212121;
+    --fontfamily:  'Roboto', sans-serif;
+}
+
+
+header{
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+}
